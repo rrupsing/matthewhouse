@@ -1,0 +1,8 @@
+/* ---- BACKGOUND COLOUR --- */
+
+body {
+	background-color: #ffffff;
+}
+.linearnavbar td a, .linearnavbarsearch td a {
+	color:#000000;
+}

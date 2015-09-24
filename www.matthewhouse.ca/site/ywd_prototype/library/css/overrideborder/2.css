@@ -1,0 +1,5 @@
+/* ---- IMAGES BORDER --- */
+
+.contenttable img, .contenttablesub img {
+	border:0px solid #ffffff;
+}

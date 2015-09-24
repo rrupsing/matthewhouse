@@ -1,0 +1,17 @@
+/* ----             PRINTER FRIENDLY CSS            --- */
+/* ---- overrides a few classes for better printing --- */
+
+.contentbottomlinks {
+	display:none;
+}
+/* wrapper div (width) */
+#wrapper {
+	width:100%;
+}
+.banner {
+	float:none;
+}
+.navbararea, .navbar, #nav, .leftcol, .linearnavbar, .tertiarynav, #ywdsidebadgesleft, #ywdsidebadgesright {
+	float:none;
+	display:none;
+}
