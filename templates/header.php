@@ -71,7 +71,98 @@ body {
 ga('create', 'UA-67437201-1', 'auto');
 ga('send', 'pageview');
 </script>
-<link rel="canonical" href="index.html" /> 
+<link rel="canonical" href="index.php" /> 
 
 <script type="text/javascript" src="site/ywd_trialsite_1564/library/scripts/body-opening-scripts1.js"></script>
 <script type="text/javascript" src="site/ywd_trialsite_1564/library/scripts/body-opening-scripts2.js"></script>
+
+<div id="ywdstretchedback"></div>
+<div id="calendar"></div>
+<div id="caldetail"></div>
+<div id="csstips" style="display:none;z-index:100;"></div>
+<div id="ywdtopofpage"><a id="top"></a></div>
+<div id="wrapper">
+	<div id="layouthome">
+		<div class="linearnavbar">
+			<table border="0" align="right" cellpadding="0" cellspacing="0" id="linearnavbartable">	
+				<tr>
+					<td style="width:8px;padding:0px;"></td>
+				</tr>
+			</table>
+		</div>
+		<table class="layout" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td id="shadowvertleft">&nbsp;</td>
+				<td class="layoutleft">
+					<div class="navbararea" style='cursor:default;'>
+						<div class="navbar">
+							<table id="navouterbuttons" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>
+										<ul class="sf-menu">
+											<li><a href="story.php" style="float:left;">About Us</a>
+												<ul>
+													<li>
+														<a href="story.php" id="dhtml2link" style="border-top-style:none;">Our Story</a>
+													</li>
+													<li>
+														<a href="indexd05b.html?pagepath=About_Us/Our_Team&amp;id=43700" id="dhtml2link" style="border-top-style:none;">Our Team</a>
+													</li>
+													<li>
+														<a href="index3993.html?pagepath=About_Us/Our_Houses&amp;id=43698" id="dhtml2link" style="border-top-style:none;">Our Houses</a>
+													</li>
+													<li>
+														<a href="indexee2f.html?pagepath=About_Us/Media&amp;id=44842" id="dhtml2link" style="border-top-style:none;">Media</a>
+													</li>
+													<li>
+														<a href="index5a2e.html?pagepath=About_Us/News&amp;id=43703" id="dhtml2link" style="border-top-style:none;">News</a>
+													</li>
+													<li>
+														<a href="index2c1c.html?pagepath=About_Us/Newsletter&amp;id=68762" id="dhtml2link" style="border-top-style:none;">Newsletter</a>
+													</li>
+												</ul>	
+												<li><a href="index3a3e.html?pagepath=Our_Services&amp;id=43316" style="float:left;">Our Services</a>
+													<ul>
+														<li>
+															<a href="index9d54.html?pagepath=Our_Services/Our_Residents&amp;id=43317" id="dhtml2link" style="border-top-style:none;">Our Residents</a>
+														</li>
+													</ul>	
+													<li><a href="indexe9ba.html?pagepath=Volunteer&amp;id=43696" style="float:left;">Volunteer</a>
+														<li><a href="index2d1a.html?pagepath=Events&amp;id=49964" style="float:left;">Events</a>
+															<li><a href="index7ae0.html?pagepath=Contact&amp;id=43319" style="float:left;">Contact</a>
+																<li><a href="index1456.html?pagepath=Donate&amp;id=55754" style="float:left;">Donate</a>
+																	<ul>
+																		<li>
+																			<a href="indexd601.html?pagepath=Donate/Become_a_Monthly_Donor&amp;id=56060" id="dhtml2link" style="border-top-style:none;">Become a Monthly Donor</a>
+																		</li>
+																		<li>
+																			<a href="index82a1.html?pagepath=Donate/Item_Donations&amp;id=56056" id="dhtml2link" style="border-top-style:none;">Item Donations</a>
+																		</li>
+																		<li>
+																			<a href="index6092.html?pagepath=Donate/Friends_and_Supporters&amp;id=43697" id="dhtml2link" style="border-top-style:none;">Friends and Supporters</a>
+																		</li>
+																	</ul>	
+																</ul>
+															</td>
+														</tr>
+													</table>
+												</div>
+											</div>
+											<style type="text/css">
+											.navbar, .navbararea {
+												border-top-style:none;
+												/*margin:0px;*/
+												padding:0px;
+											}
+											</style>
+											<div class="banner" style='cursor:default;'>
+												<div id="flashcontent"
+												>
+												<table style="width:100%;height:100%;" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td style="width:100%;"><a href="index.php"><img src="site/ywd_trialsite_1564/assets/images/MH-logo-1.png" style="border-style:none;" align="left" alt="Page banner" /></a></td>
+													</tr>
+												</table>
+											</div>
+										</div>
+
