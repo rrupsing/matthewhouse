@@ -182,20 +182,3 @@
 </td>
 <td id="shadowvert" style="background-repeat:repeat-y;"></td>
 </tr>
-<tr>
-	<td id="shadowvertleft">&nbsp;</td>
-	<td>
-		<div id="contentfooterhome">
-			<div id="contentfooter">
-				<div class="maincolbox" style='clear:both;' controller="1">
-					<div class="maincolcblock ywdblock_stacked">
-						<div class="wp"><h4><span style="color: rgb(255, 255, 255); ">&quot;I was a stranger and you welcomed me...&quot; Matthew 25:35 </span></h4>
-							<p><img alt="" height="3" src="site/ywd_trialsite_1564/assets/images/spacer-clear.png" width="13" /></p>
-							<h4>&nbsp;</h4>
-							<h4><span style="color: rgb(0, 204, 255); ">&copy;Matthew House Toronto 2015 &nbsp;| P: 416.364.8287 |&nbsp;981 Dundas Street West Toronto ON M6J 1W4&nbsp;| <a href="http://twitter.com/Matthew_House" target="_blank"><span style="color: rgb(0, 204, 255); ">Twitter</span></a>&nbsp;| </span><a href="https://www.facebook.com/matthewhousetoronto?ref=hl" target="_blank"><span style="color: rgb(0, 204, 255); ">Facebook</span></a><span style="color: rgb(0, 204, 255); ">&nbsp;|&nbsp;</span><span style="color: rgb(0, 204, 255); "><span style="color: rgb(255, 255, 255); ">Created by <a href="http://www.genesisxd.com/" target="_blank"><span style="color: rgb(255, 255, 255); ">GenesisXD</span></a></span></span></h4>
-							<p>&nbsp;</p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
-						</div>
-					</div>
-				</div>
-			</div>
-		</td>

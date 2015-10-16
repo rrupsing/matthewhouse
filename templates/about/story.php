@@ -35,7 +35,7 @@ body {
 									</td>
 								</tr>
 								<tr><td class="navleft2offset"></td></tr>
-								<tr><td style="padding-left:0px;"><a href="index3b17.html?pagepath=About_Us/Our_Story&amp;id=44867" class="navleft2current">Our Story</a></td></tr><tr><td style="padding-left:0px;"><a href="indexd05b.html?pagepath=About_Us/Our_Team&amp;id=43700" class="navleft2">Our Team</a></td></tr><tr><td style="padding-left:0px;"><a href="index3993.html?pagepath=About_Us/Our_Houses&amp;id=43698" class="navleft2">Our Houses</a></td></tr><tr><td style="padding-left:0px;"><a href="indexee2f.html?pagepath=About_Us/Media&amp;id=44842" class="navleft2">Media</a></td></tr><tr><td style="padding-left:0px;"><a href="index5a2e.html?pagepath=About_Us/News&amp;id=43703" class="navleft2">News</a></td></tr><tr><td style="padding-left:0px;"><a href="index2c1c.html?pagepath=About_Us/Newsletter&amp;id=68762" class="navleft2">Newsletter</a></td></tr>
+								<tr><td style="padding-left:0px;"><a href="story.php" class="navleft2current">Our Story</a></td></tr><tr><td style="padding-left:0px;"><a href="indexd05b.html?pagepath=About_Us/Our_Team&amp;id=43700" class="navleft2">Our Team</a></td></tr><tr><td style="padding-left:0px;"><a href="index3993.html?pagepath=About_Us/Our_Houses&amp;id=43698" class="navleft2">Our Houses</a></td></tr><tr><td style="padding-left:0px;"><a href="indexee2f.html?pagepath=About_Us/Media&amp;id=44842" class="navleft2">Media</a></td></tr><tr><td style="padding-left:0px;"><a href="index5a2e.html?pagepath=About_Us/News&amp;id=43703" class="navleft2">News</a></td></tr><tr><td style="padding-left:0px;"><a href="index2c1c.html?pagepath=About_Us/Newsletter&amp;id=68762" class="navleft2">Newsletter</a></td></tr>
 							</table>
 						</div>
 					</td>
@@ -103,25 +103,4 @@ body {
 						</td>
 						<td id="shadowvert" style="background-repeat:repeat-y;"></td>
 					</tr>
-					<tr>
-						<td id="shadowvertleft">&nbsp;</td>
-						<td>
-							<div id="contentfooter">
-								<div class="maincolbox" style='clear:both;' controller="1">
-									<div class="maincolcblock ywdblock_stacked">
-										<div class="wp"><h4><span style="color: rgb(255, 255, 255); ">&quot;I was a stranger and you welcomed me...&quot; Matthew 25:35 </span></h4>
-											<p><img alt="" height="3" src="site/ywd_trialsite_1564/assets/images/spacer-clear.png" width="13" /></p>
-											<h4>&nbsp;</h4>
-											<p><span style="color: rgb(0, 204, 255); ">&copy;Matthew House Toronto 2012 &nbsp;| P: 416.364.8287 |&nbsp;981 Dundas Street West Toronto ON M6J 1W4&nbsp;|&nbsp;Twitter&nbsp;|&nbsp;Facebook&nbsp;|&nbsp;Created by&nbsp;GenesisXD</span></p>
-											<p><br />
-												&nbsp;</p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
-											</div>
-										</div>
-									</div>
-								</td>
-								<td id="shadowvert" style="background-repeat:repeat-y;background-position:bottom;"></td>
-							</tr>
-							<tr id="shadowbottomrow"><td id="shadowcornerleft"></td><td id="shadowhoriz"></td><td id="shadowcorner" style="background-repeat:no-repeat;"></td></tr>
-							<tr>
-								<td id="shadowbottomleft"></td>
-								<td>
+					
