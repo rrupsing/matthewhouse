@@ -101,14 +101,14 @@ ga('send', 'pageview');
 									<td>
 										<ul class="sf-menu">
 											<li class="<?php echo $page == 'about' ? 'dhtmlbuttonactive' : ''; ?>">
-												<a href="story.php" style="float:left;" class="<?php echo $page == 'about' ? 'dhtmlnavactive' : ''; ?>">
+												<a href="page.php?p=story" style="float:left;" class="<?php echo $page == 'about' ? 'dhtmlnavactive' : ''; ?>">
 													About Us</a>
 												<ul>
 													<li>
-														<a href="story.php" id="dhtml2link" style="border-top-style:none;">Our Story</a>
+														<a href="page.php?p=story" id="dhtml2link" style="border-top-style:none;">Our Story</a>
 													</li>
 													<li>
-														<a href="team.php" id="dhtml2link" style="border-top-style:none;">Our Team</a>
+														<a href="page.php?p=story" id="dhtml2link" style="border-top-style:none;">Our Team</a>
 													</li>
 													<li>
 														<a href="index3993.html?pagepath=About_Us/Our_Houses&amp;id=43698" id="dhtml2link" style="border-top-style:none;">Our Houses</a>

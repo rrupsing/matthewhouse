@@ -6,9 +6,9 @@
 		</tr>
 		<tr><td class="navleft2offset"></td></tr>
 		<tr><td style="padding-left:0px;">
-			<a href="story.php" class="<?php echo $subpage == 'story' ? 'navleft2current' : 'navleft2'; ?>">Our Story</a></td></tr>
+			<a href="page.php?p=story" class="<?php echo $subpage == 'story' ? 'navleft2current' : 'navleft2'; ?>">Our Story</a></td></tr>
 		<tr><td style="padding-left:0px;">
-			<a href="team.php" class="<?php echo $subpage == 'team' ? 'navleft2current' : 'navleft2'; ?>">Our Team</a></td></tr>
+			<a href="page.php?p=team" class="<?php echo $subpage == 'team' ? 'navleft2current' : 'navleft2'; ?>">Our Team</a></td></tr>
 		<tr><td style="padding-left:0px;">
 			<a href="houses" class="<?php echo $subpage == 'houses' ? 'navleft2current' : 'navleft2'; ?>">Our Houses</a></td></tr>
 		<tr><td style="padding-left:0px;">

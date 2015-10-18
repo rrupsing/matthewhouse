@@ -10,7 +10,9 @@ $templates = new League\Plates\Engine('templates');
 $current_file_path = dirname(__FILE__);
 $templates->addFolder('about', $current_file_path . '/templates/about');
 
+$subpage = $_GET['p'];
+
 // Render a template
-echo $templates->render('about::team', ['name' => 'Jonathan']);
+echo $templates->render('about::' . $subpage);
 
 ?>
