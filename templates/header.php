@@ -100,7 +100,9 @@ ga('send', 'pageview');
 								<tr>
 									<td>
 										<ul class="sf-menu">
-											<li><a href="story.php" style="float:left;">About Us</a>
+											<li class="<?php echo $page == 'about' ? 'dhtmlbuttonactive' : ''; ?>">
+												<a href="story.php" style="float:left;" class="<?php echo $page == 'about' ? 'dhtmlnavactive' : ''; ?>">
+													About Us</a>
 												<ul>
 													<li>
 														<a href="story.php" id="dhtml2link" style="border-top-style:none;">Our Story</a>

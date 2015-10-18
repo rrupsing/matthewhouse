@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<?php $this->insert('header') ?>
+<?php $this->insert('header', ['page'=>$this->e($page)]) ?>
 
 
 <!-- overriding styles -->
