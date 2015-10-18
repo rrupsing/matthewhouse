@@ -106,7 +106,7 @@ ga('send', 'pageview');
 														<a href="story.php" id="dhtml2link" style="border-top-style:none;">Our Story</a>
 													</li>
 													<li>
-														<a href="indexd05b.html?pagepath=About_Us/Our_Team&amp;id=43700" id="dhtml2link" style="border-top-style:none;">Our Team</a>
+														<a href="team.php" id="dhtml2link" style="border-top-style:none;">Our Team</a>
 													</li>
 													<li>
 														<a href="index3993.html?pagepath=About_Us/Our_Houses&amp;id=43698" id="dhtml2link" style="border-top-style:none;">Our Houses</a>
