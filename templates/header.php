@@ -111,16 +111,16 @@ ga('send', 'pageview');
 														<a href="page.php?p=story" id="dhtml2link" style="border-top-style:none;">Our Team</a>
 													</li>
 													<li>
-														<a href="index3993.html?pagepath=About_Us/Our_Houses&amp;id=43698" id="dhtml2link" style="border-top-style:none;">Our Houses</a>
+														<a href="page.php?p=houses" id="dhtml2link" style="border-top-style:none;">Our Houses</a>
 													</li>
 													<li>
-														<a href="indexee2f.html?pagepath=About_Us/Media&amp;id=44842" id="dhtml2link" style="border-top-style:none;">Media</a>
+														<a href="page.php?p=media" id="dhtml2link" style="border-top-style:none;">Media</a>
 													</li>
 													<li>
-														<a href="index5a2e.html?pagepath=About_Us/News&amp;id=43703" id="dhtml2link" style="border-top-style:none;">News</a>
+														<a href="page.php?p=news" id="dhtml2link" style="border-top-style:none;">News</a>
 													</li>
 													<li>
-														<a href="index2c1c.html?pagepath=About_Us/Newsletter&amp;id=68762" id="dhtml2link" style="border-top-style:none;">Newsletter</a>
+														<a href="page.php?p=newsletter" id="dhtml2link" style="border-top-style:none;">Newsletter</a>
 													</li>
 												</ul>	
 												<li><a href="index3a3e.html?pagepath=Our_Services&amp;id=43316" style="float:left;">Our Services</a>
