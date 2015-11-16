@@ -123,25 +123,35 @@ ga('send', 'pageview');
 														<a href="page.php?p=about&s=newsletter" id="dhtml2link" style="border-top-style:none;">Newsletter</a>
 													</li>
 												</ul>	
-												<li><a href="page.php?p=services&s=services" style="float:left;">Our Services</a>
+												<li class="<?php echo $page == 'services' ? 'dhtmlbuttonactive' : ''; ?>">
+													<a href="page.php?p=services&s=services" style="float:left;" class="<?php echo $page == 'services' ? 'dhtmlnavactive' : ''; ?>">
+													Our Services</a>
 													<ul>
 														<li>
 															<a href="page.php?p=services&s=residents" id="dhtml2link" style="border-top-style:none;">Our Residents</a>
 														</li>
 													</ul>	
-													<li><a href="page.php?p=volunteer&s=volunteer" style="float:left;">Volunteer</a>
-														<li><a href="page.php?p=events&s=events" style="float:left;">Events</a>
-															<li><a href="page.php?p=contact&s=contact" style="float:left;">Contact</a>
-																<li><a href="page.php?p=donate&s=donate" style="float:left;">Donate</a>
+												<li class="<?php echo $page == 'volunteer' ? 'dhtmlbuttonactive' : ''; ?>">
+													<a href="page.php?p=volunteer&s=volunteer" style="float:left;" class="<?php echo $page == 'volunteer' ? 'dhtmlnavactive' : ''; ?>">
+														Volunteer</a>
+												<li class="<?php echo $page == 'events' ? 'dhtmlbuttonactive' : ''; ?>">
+													<a href="page.php?p=events&s=events" style="float:left;" class="<?php echo $page == 'events' ? 'dhtmlnavactive' : ''; ?>">
+															Events</a>
+												<li class="<?php echo $page == 'contact' ? 'dhtmlbuttonactive' : ''; ?>">
+													<a href="page.php?p=contact&s=contact" style="float:left;" class="<?php echo $page == 'contact' ? 'dhtmlnavactive' : ''; ?>">
+																Contact</a>
+												<li class="<?php echo $page == 'donate' ? 'dhtmlbuttonactive' : ''; ?>">
+													<a href="page.php?p=donate&s=donate" style="float:left;" class="<?php echo $page == 'donate' ? 'dhtmlnavactive' : ''; ?>">
+																	Donate</a>
 																	<ul>
 																		<li>
-																			<a href="indexd601.html?pagepath=Donate/Become_a_Monthly_Donor&amp;id=56060" id="dhtml2link" style="border-top-style:none;">Become a Monthly Donor</a>
+																			<a href="page.php?p=donate&s=monthly" id="dhtml2link" style="border-top-style:none;">Become a Monthly Donor</a>
 																		</li>
 																		<li>
-																			<a href="index82a1.html?pagepath=Donate/Item_Donations&amp;id=56056" id="dhtml2link" style="border-top-style:none;">Item Donations</a>
+																			<a href="page.php?p=donate&s=items" id="dhtml2link" style="border-top-style:none;">Item Donations</a>
 																		</li>
 																		<li>
-																			<a href="index6092.html?pagepath=Donate/Friends_and_Supporters&amp;id=43697" id="dhtml2link" style="border-top-style:none;">Friends and Supporters</a>
+																			<a href="page.php?p=donate&s=friends" id="dhtml2link" style="border-top-style:none;">Friends and Supporters</a>
 																		</li>
 																	</ul>	
 																</ul>
