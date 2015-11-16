@@ -35,9 +35,14 @@ body {
 			<div id="cse" style="width:100%;display:none;"></div>
 			<table align="left" class="contenttablesub" border="0" cellspacing="0" cellpadding="0">
 				<tr>
-					<td class="leftcol">
-						<?php $this->insert($this->e($page) . '::side_menu', ['subpage' => $this->e($subpage)]); ?>
-					</td>
+					<?php 
+						if ($this->e($sidebar))
+						{
+							echo '<td class="leftcol">';
+							$this->insert($this->e($page) . '::side_menu', ['subpage' => $this->e($subpage)]);
+							echo '</td>';
+						}
+					?>
 					<td class="contentmaincolsub">
 						<div id="page">
 						    <?=$this->section('content')?>

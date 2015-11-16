@@ -1,4 +1,4 @@
-<?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'page'=>'services', 'subpage' => 'residents']) ?>
+<?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'sidebar'=>True, 'page'=>'services', 'subpage' => 'residents']) ?>
 
 
 <div id="content">

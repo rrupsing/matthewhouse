@@ -1,4 +1,4 @@
-<?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'page'=>'services', 'subpage' => 'services']) ?>
+<?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'sidebar'=>True, 'page'=>'services', 'subpage' => 'services']) ?>
 
 <div id="content">
 <div class="maincolbox" style='clear:both;' controller="1">

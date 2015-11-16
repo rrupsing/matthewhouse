@@ -129,10 +129,10 @@ ga('send', 'pageview');
 															<a href="page.php?p=services&s=residents" id="dhtml2link" style="border-top-style:none;">Our Residents</a>
 														</li>
 													</ul>	
-													<li><a href="indexe9ba.html?pagepath=Volunteer&amp;id=43696" style="float:left;">Volunteer</a>
-														<li><a href="index2d1a.html?pagepath=Events&amp;id=49964" style="float:left;">Events</a>
-															<li><a href="index7ae0.html?pagepath=Contact&amp;id=43319" style="float:left;">Contact</a>
-																<li><a href="index1456.html?pagepath=Donate&amp;id=55754" style="float:left;">Donate</a>
+													<li><a href="page.php?p=volunteer&s=volunteer" style="float:left;">Volunteer</a>
+														<li><a href="page.php?p=events&s=events" style="float:left;">Events</a>
+															<li><a href="page.php?p=contact&s=contact" style="float:left;">Contact</a>
+																<li><a href="page.php?p=donate&s=donate" style="float:left;">Donate</a>
 																	<ul>
 																		<li>
 																			<a href="indexd601.html?pagepath=Donate/Become_a_Monthly_Donor&amp;id=56060" id="dhtml2link" style="border-top-style:none;">Become a Monthly Donor</a>
