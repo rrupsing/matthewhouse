@@ -101,32 +101,32 @@ ga('send', 'pageview');
 									<td>
 										<ul class="sf-menu">
 											<li class="<?php echo $page == 'about' ? 'dhtmlbuttonactive' : ''; ?>">
-												<a href="page.php?p=story" style="float:left;" class="<?php echo $page == 'about' ? 'dhtmlnavactive' : ''; ?>">
+												<a href="page.php?p=about&s=story" style="float:left;" class="<?php echo $page == 'about' ? 'dhtmlnavactive' : ''; ?>">
 													About Us</a>
 												<ul>
 													<li>
-														<a href="page.php?p=story" id="dhtml2link" style="border-top-style:none;">Our Story</a>
+														<a href="page.php?p=about&s=story" id="dhtml2link" style="border-top-style:none;">Our Story</a>
 													</li>
 													<li>
-														<a href="page.php?p=story" id="dhtml2link" style="border-top-style:none;">Our Team</a>
+														<a href="page.php?p=about&s=story" id="dhtml2link" style="border-top-style:none;">Our Team</a>
 													</li>
 													<li>
-														<a href="page.php?p=houses" id="dhtml2link" style="border-top-style:none;">Our Houses</a>
+														<a href="page.php?p=about&s=houses" id="dhtml2link" style="border-top-style:none;">Our Houses</a>
 													</li>
 													<li>
-														<a href="page.php?p=media" id="dhtml2link" style="border-top-style:none;">Media</a>
+														<a href="page.php?p=about&s=media" id="dhtml2link" style="border-top-style:none;">Media</a>
 													</li>
 													<li>
-														<a href="page.php?p=news" id="dhtml2link" style="border-top-style:none;">News</a>
+														<a href="page.php?p=about&s=news" id="dhtml2link" style="border-top-style:none;">News</a>
 													</li>
 													<li>
-														<a href="page.php?p=newsletter" id="dhtml2link" style="border-top-style:none;">Newsletter</a>
+														<a href="page.php?p=about&s=newsletter" id="dhtml2link" style="border-top-style:none;">Newsletter</a>
 													</li>
 												</ul>	
-												<li><a href="index3a3e.html?pagepath=Our_Services&amp;id=43316" style="float:left;">Our Services</a>
+												<li><a href="page.php?p=services&s=services" style="float:left;">Our Services</a>
 													<ul>
 														<li>
-															<a href="index9d54.html?pagepath=Our_Services/Our_Residents&amp;id=43317" id="dhtml2link" style="border-top-style:none;">Our Residents</a>
+															<a href="page.php?p=services&s=residents" id="dhtml2link" style="border-top-style:none;">Our Residents</a>
 														</li>
 													</ul>	
 													<li><a href="indexe9ba.html?pagepath=Volunteer&amp;id=43696" style="float:left;">Volunteer</a>

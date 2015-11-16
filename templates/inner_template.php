@@ -36,7 +36,7 @@ body {
 			<table align="left" class="contenttablesub" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td class="leftcol">
-						<?php $this->insert('about::side_menu', ['subpage' => $this->e($subpage)]); ?>
+						<?php $this->insert($this->e($page) . '::side_menu', ['subpage' => $this->e($subpage)]); ?>
 					</td>
 					<td class="contentmaincolsub">
 						<div id="page">

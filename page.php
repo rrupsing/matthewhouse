@@ -8,11 +8,13 @@
 $loader = require __DIR__ . '/vendor/autoload.php';
 $templates = new League\Plates\Engine('templates');
 $current_file_path = dirname(__FILE__);
-$templates->addFolder('about', $current_file_path . '/templates/about');
 
-$subpage = $_GET['p'];
+$page = $_GET['p'];
+$subpage = $_GET['s'];
+
+$templates->addFolder($page, $current_file_path . '/templates/' . $page);
 
 // Render a template
-echo $templates->render('about::' . $subpage);
+echo $templates->render($page . '::' . $subpage);
 
 ?>
