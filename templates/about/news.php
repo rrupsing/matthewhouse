@@ -1,5 +1,23 @@
 <?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'sidebar'=>True, 'page'=>'about', 'subpage' => 'news']) ?>
 
+<?php
+	$twenty15 = array(
+		"09.15.15" => "National Rally for Refugees - Thursday, September 17",
+		"09.10.15" => "Reflections from our Founder on current refugee crisis",
+		"09.05.15" => "Matthew House on CBC National News",
+		"09.04.15" => "Matthew House Featured in the Globe and Mail",
+		"08.18.15" => 'Matthew House Launches "Music in the Garden" series with accomplished musicians!',
+		"08.07.15" => "CP24 Features Matthew House!",
+		"08.04.15" => "Celebrating 17 years of welcoming the World!",
+		"07.23.15" => "Matthew House celebrates new Milestone for Refugee Rights, July 23, 2015",
+		"06.19.15" => "Matthew House Celebrates World Refugee Day!",
+		"06.09.15" => "Emmanuel Jal lends his support to our screening of The Good Lie!",
+		"04.20.15" => "A UNHCR delegation visits Matthew House",
+		"04.10.15" => "Save the Date! Special screening of the Good Lie",
+		"01.31.15" => "Matthew House to host first ever Winterfest!!",
+		)
+?>
+
 <div id="content">
 <div class="maincolbox" style='clear:both;' controller="1">
 <div class="maincolcblock ywdblock_stacked">
@@ -20,211 +38,25 @@
 </select>
 </form>
 <p></p>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">09.15.15</td>
-<td class="newsheadline"><a href="indexb235.html?returnid=43703&amp;newsid=4253&amp;pagepath=About_Us/News&amp;id=43703" >National Rally for Refugees - Thursday, September 17</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">09.10.15</td>
-<td class="newsheadline"><a href="indexa27e.html?returnid=43703&amp;newsid=4247&amp;pagepath=About_Us/News&amp;id=43703" >Reflections from our Founder on current refugee crisis</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">09.05.15</td>
-<td class="newsheadline"><a href="indexf001.html?returnid=43703&amp;newsid=4243&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House on CBC National News</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">09.04.15</td>
-<td class="newsheadline"><a href="indexf6dd.html?returnid=43703&amp;newsid=4241&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House Featured in The Globe And Mail</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">08.18.15</td>
-<td class="newsheadline"><a href="index2210.html?returnid=43703&amp;newsid=4221&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House Launches "Music in the Garden" series with accomplished musicians!</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">08.07.15</td>
-<td class="newsheadline"><a href="index7480.html?returnid=43703&amp;newsid=4213&amp;pagepath=About_Us/News&amp;id=43703" >CP24 Features Matthew House!</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">08.04.15</td>
-<td class="newsheadline"><a href="index8217.html?returnid=43703&amp;newsid=4211&amp;pagepath=About_Us/News&amp;id=43703" >Celebrating 17 years of welcoming the World!</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">07.23.15</td>
-<td class="newsheadline"><a href="indexd4ab.html?returnid=43703&amp;newsid=4197&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House celebrates new Milestone for Refugee Rights, July 23, 2015</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">06.19.15</td>
-<td class="newsheadline"><a href="indexf393.html?returnid=43703&amp;newsid=4135&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House Celebrates World Refugee Day!</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">06.09.15</td>
-<td class="newsheadline"><a href="index730e.html?returnid=43703&amp;newsid=4119&amp;pagepath=About_Us/News&amp;id=43703" >Emmanuel Jal lends his support to our screening of The Good Lie!</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">04.20.15</td>
-<td class="newsheadline"><a href="index64ac.html?returnid=43703&amp;newsid=4073&amp;pagepath=About_Us/News&amp;id=43703" >A UNHCR delegation visits Matthew House</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">04.10.15</td>
-<td class="newsheadline"><a href="index54c5.html?returnid=43703&amp;newsid=4067&amp;pagepath=About_Us/News&amp;id=43703" >Save the Date! Special screening of the Good Lie</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-<div class="ywdnewsitem">
-<table class="newslist" border="0">
-<tr>
-<td class="newsdate">01.31.15</td>
-<td class="newsheadline"><a href="index572b.html?returnid=43703&amp;newsid=3959&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House to host first ever Winterfest!!</a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<div class="ywdnewsmanager">
-</div>
-<script type="text/javascript">
-<!--
-document.getElementById('newstickercontainer').style.display='block';
-//-->
-</script>
+
+<?php
+	foreach ($twenty15 as $key => $value)
+	{
+		?>
+		<div class="ywdnewsmanager">
+		<div class="ywdnewsitem">
+		<table class="newslist" border="0">
+		<tr>
+		<td class="newsdate"><?php echo $key;?></td>
+		<td class="newsheadline">
+			<a href="page.php?p=about&s=news_article&article=<?php echo $key;?>"><?php echo $value;?></a></td>
+		</tr>
+		</table>
+		</div>
+		</div>
+<?php
+	}
+?>
 </div>
 </div>
 <div style="margin:0px;padding:0px;height:0px;clear:both;"></div>
