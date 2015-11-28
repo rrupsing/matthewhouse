@@ -57,6 +57,9 @@ body {
 	background-repeat:repeat;
 	background-attachment:fixed;
 }
+
+a.footer_link { color: rgb(0,204,255);}
+
 </style>	
 <link media="print" href="site/ywd_prototype/library/css/printerfriendly.css" rel="stylesheet" type="text/css" />
 <link href="site/ywd_trialsite_1564/library/css/designer-custom3.css" rel="stylesheet" type="text/css" />
