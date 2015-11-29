@@ -1,6 +1,7 @@
 <?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'sidebar'=>True, 'page'=>'about', 'subpage' => 'news']) ?>
 
 <?php
+
 	$twenty15 = array(
 		"09.15.15" => "National Rally for Refugees - Thursday, September 17",
 		"09.10.15" => "Reflections from our Founder on current refugee crisis",
@@ -15,7 +16,7 @@
 		"04.20.15" => "A UNHCR delegation visits Matthew House",
 		"04.10.15" => "Save the Date! Special screening of the Good Lie",
 		"01.31.15" => "Matthew House to host first ever Winterfest!!",
-		)
+		);
 
 	$twenty14 = array(
 		"11.14.14" => "Matthew House teen featured in this Saturday's Toronto Star!",
@@ -31,10 +32,45 @@
 		"04.04.14" => "Happy Refugee Rights Day!",
 		"02.21.14" => "Volunteer Networking Event a Success!",
 		"01.25.14" => "Volunteer Painters give MH a lift!",
-		)
+		);
 
+	$twenty13 = array(
+		"12.14.13" => "MH Director interviewed on Current Events Program Context",
+		"12.02.13" => "MH Annual Christmas Party, Sat. Dec. 7th",
+		"11.20.13" => "MH Executive Director is guest on CONTEXT with Lorna Dueck",
+		"10.21.13" => "Great Run - and still time to support it!",
+		"10.09.13" => "Former resident joins MH charity run team - you can too!",
+		"09.20.13" => "New members join Matthew House staff team",
+		"08.21.13" => "Summer camp a fantastic experience!!",
+		"07.22.13" => "International Potluck on 15th Anniversary Date - August 6th",
+		"06.15.13" => "15th Anniversary Gala - A Great Success!!",
+		"05.25.13" => "Summer Student Job: Refugee Settlement Assistant",
+		"05.22.13" => "In memory of Richard Woolger",
+		"04.13.13" => "15th anniversary gala has growing roster of honoured guests. Join us June 12, 2013",
+		"04.05.13" => "Matthew House celebrates Refugee Rights Day with passion",
+		"04.04.13" => "Today is Canadian Refugee Rights Day!",
+		"03.30.13" => 'Matthew House featured on CBC Radio "The World This Weekend"',
+		"02.08.13" => "Diamond Jubilee Medal presented to Matthew House Executive Director",
+		);
 
+	$twenty12 = array(
+		"12.13.12" => "Former Matthew House Board Chair, Clarence Webb remembered",
+		"11.12.12" => "Website LAUNCH PARTY",
+		"10.12.12" => "Ready to run in Charity Challenge this Sunday",
+		"09.21.12" => "The 25:35 Campaign",
+		"09.20.12" => "Final Charity Challenge Team Gathering",
+		"09.19.12" => "Anne Woolger at SCBC",
+		);
 
+	if (!isset($_POST['yearlimit']))
+		$year = "2015";
+	else
+		$year = $_POST['yearlimit'];
+	$years = array(
+		"2015" => $twenty15,
+		"2014" => $twenty14,
+		"2013" => $twenty13,
+		"2012" => $twenty12);
 ?>
 
 <div id="content">
@@ -48,18 +84,28 @@
 <div class="nwp">
 <div class="ywdnewsmanager">
 <div class="ywdnews">
-<form action="http://www.matthewhouse.ca/index.cfm?pagepath=About_Us/News&amp;id=43703" method="post">
+<form action="page.php?p=about&s=news" method="post">
 <select name="yearlimit" onchange="this.form.submit()">
-<option value="2015" selected="selected">2015</option>
-<option value="2014" >2014</option>
-<option value="2013" >2013</option>
-<option value="2012" >2012</option>
+<?php
+	$articles = $twenty15;
+	foreach ($years as $key => $value)
+	{
+		if ($key == $year)
+		{
+			echo "<option value=\"$key\" selected=\"selected\">$key</option>";
+			$articles = $value;
+		}
+		else
+			echo "<option value=\"$key\">$key</option>";
+	}
+?>
 </select>
+<noscript><input type="submit" value="Submit"></noscript>
 </form>
 <p></p>
 
 <?php
-	foreach ($twenty15 as $key => $value)
+	foreach ($articles as $key => $value)
 	{
 		?>
 		<div class="ywdnewsmanager">
