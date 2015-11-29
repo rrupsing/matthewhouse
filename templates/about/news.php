@@ -16,6 +16,23 @@
 		"04.10.15" => "Save the Date! Special screening of the Good Lie",
 		"01.31.15" => "Matthew House to host first ever Winterfest!!",
 		)
+
+	$twenty14 = array(
+		"11.14.14" => "Matthew House teen featured in this Saturday's Toronto Star!",
+		"11.12.14" => "Matthew House to be featured in the Toronto Star this weekend",
+		"10.23.14" => "Thank you to our Scotiabank Charity Run team!",
+		"10.15.14" => "There's still time to help us reach our goal in the Scotiabank Charity Run!",
+		"09.09.14" => "Have you heard of the ready tours?",
+		"08.08.14" => "Matthew House Celebrates 16 years of welcoming refugees!",
+		"07.09.14" => "We celebrate the Federal Court's judgement concerning the Federal Government's cuts to the Interim Federal Health Program",
+		"06.26.14" => "Spring Fundraiser with Anna Maria Tremonti a great success!",
+		"06.04.14" => "Matthew House to officially launch new Flight to Freedom program at June 11th Fundraiser",
+		"05.16.14" => "Breaking News! Anna Maria Tremonti host of CBC Radio’s The Current to host our Spring Fundraiser, June 11th!",
+		"04.04.14" => "Happy Refugee Rights Day!",
+		"02.21.14" => "Volunteer Networking Event a Success!",
+		"01.25.14" => "Volunteer Painters give MH a lift!",
+		)
+
 ?>
 
 <div id="content">
