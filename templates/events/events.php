@@ -17,10 +17,6 @@
 </td> 
 <tr>
 <td></td>
-<td class="eventslisttitle" valign="top"><h3>
-<a href="index969d.html?eventid=8256&amp;pagepath=Events&amp;id=49964#event8256">
-Scotiabank Charity Run</a>
-</h3></td>
 </tr>
 </tr>
 </table>
