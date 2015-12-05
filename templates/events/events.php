@@ -15,10 +15,6 @@
 <tr>
 <td class="eventlistics"> 
 </td> 
-<td class="eventslistdate" valign="top">
-Sunday, October 18, 2015
-<br />8:00 AM
-</td>
 <tr>
 <td></td>
 <td class="eventslisttitle" valign="top"><h3>
