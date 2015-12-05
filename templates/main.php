@@ -72,26 +72,26 @@
 																							<div class="nwp">
 																								<div class="ywdnewsmanager">
 																									<div class="ywdnews">
-																										<div class="ywdnewsmanager">
-																											<div class="ywdnewsitem">
-																												<div>September 15, 2015</div> 
-																												<div style="padding-bottom:0.5em;"><a href="index8307.html?returnid=42160&amp;newsid=4253&amp;pagepath=About_Us/News&amp;id=43703" >National Rally for Refugees - Thursday, September 17</a></div>
-																											</div>
-																										</div>
-																										<div class="ywdnewsmanager">
-																											<hr style="border-style:dotted;height:0px;">
-																											<div class="ywdnewsitem">
-																												<div>September 10, 2015</div> 
-																												<div style="padding-bottom:0.5em;"><a href="index89a2.html?returnid=42160&amp;newsid=4247&amp;pagepath=About_Us/News&amp;id=43703" >Reflections from our Founder on current refugee crisis</a></div>
-																											</div>
-																										</div>
-																										<div class="ywdnewsmanager">
-																											<hr style="border-style:dotted;height:0px;">
-																											<div class="ywdnewsitem">
-																												<div>September 05, 2015</div> 
-																												<div style="padding-bottom:0.5em;"><a href="indexfee0.html?returnid=42160&amp;newsid=4243&amp;pagepath=About_Us/News&amp;id=43703" >Matthew House on CBC National News</a></div>
-																											</div>
-																										</div>
+																										<?php
+																											require("resources/news_manager.php");
+																											$recent = NewsManager::getRecentNews(3);
+
+																											foreach ($recent as $k => $v)
+																											{
+																										?>
+																												<div class="ywdnewsmanager">
+																													<div class="ywdnewsitem">
+																														<div><?php echo $k;?></div> 
+																														<div style="padding-bottom:0.5em;">
+																															<a href="pages.php?p=about?s=news_article&article&article=<?php echo $k;?>">
+																																<?php echo $v;?>
+																															</a>
+																														</div>
+																													</div>
+																												</div>
+																										<?php
+																											}
+																										?>
 																										<script type="text/javascript">
 																										<!--
 																										document.getElementById('newstickercontainer').style.display='block';

@@ -72,11 +72,11 @@ class NewsManager
 		"2012" => NewsManager::$twenty12);
 	}
 	
-	private $current_year = "2015";
+	const CURRENT_YEAR = "2015";
 
 	public static function getRecentNews($count)
 	{
-		$articles = $this->getYears()[$current_year];
+		$articles = NewsManager::getYears()[NewsManager::CURRENT_YEAR];
 		return array_slice($articles, 0, $count, true);
 	}
 
