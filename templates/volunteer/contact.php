@@ -1,4 +1,76 @@
 <?php $this->layout('inner_template', ['title' => 'Matthew House | Refugee Reception Services Toronto', 'page'=>'volunteer', 'subpage' => 'contact']) ?>
+<script type="text/javascript" src="library/javascript/qforms/c_qforms.js" libpath="library/javascript/"></script>
+<script type="text/JavaScript">
+qFormAPI.setLibraryPath("library/javascript/");
+qFormAPI.include("field");
+qFormAPI.include("validation");
+qFormAPI.include("functions");
+qFormAPI.include("functions_js12");
+qFormAPI.include("cookies");
+</script>
+<script type="text/javascript" src="library/javascript/cdkpQformsAlterations/container-ext.js"></script>
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+var objCCForm1 = "";
+var objCCForm2 = "";
+function completeform2()
+{
+try {
+}
+catch (e)
+{
+window.alert(e);
+}
+}
+function ONLOADDocumentFunction ()
+{
+////// start
+try {
+objCCForm2 = new qForm("ccform2");
+objCCForm2.name.description = "NAME";
+objCCForm2.name.required = true;
+objCCForm2.last_name.description = "LAST_NAME";
+objCCForm2.last_name.required = true;
+objCCForm2.group_name.description = "GROUP_NAME";
+objCCForm2.email.description = "EMAIL";
+objCCForm2.email.required = true;
+//objCCForm2.email.validate = true;
+objCCForm2.email.validateEmail("OOPS!");
+objCCForm2.phone.description = "PHONE";
+objCCForm2.phone.required = true;
+//objCCForm2.phone.validate = true;
+objCCForm2.phone.validatePhoneNumber(10,"The phone number must contain 10 numbers.");
+objCCForm2.volunteer.description = "VOLUNTEER";
+objCCForm2.volunteer.required = true;
+objCCForm2.interests_question.description = "INTERESTS_QUESTION";
+objCCForm2.orientation_date.description = "ORIENTATION_DATE";
+objCCForm2.orientation_date.required = true;
+objCCForm2.where_hear.description = "WHERE_HEAR";
+objCCForm2.where_hear.required = true;
+}
+catch (e)
+{
+//alert('Qforms attributes error:');
+//window.alert(e);
+}
+objCCForm2.onSubmit = completeform2;
+var els = document.ccform2.elements; 
+for(i=0; i<els.length; i++){ 
+if(els[i].type != "hidden" ){
+try {
+break;
+}
+catch (e)
+{
+//window.alert(e);
+}
+}
+}
+//////// end
+}
+//-->
+</script>
+
 
 <div id="content">
 <div class="maincolbox" style='clear:both;' controller="1">
@@ -16,7 +88,7 @@ display:none;
 </style>
 <div class="formarea">
 <table class="formtable" cellspacing="3" cellpadding="0">
-<form id="ccform2" name="ccform2" action="http://www.matthewhouse.ca/index.cfm?id=44853&amp;form_submitted=1" method="post" enctype="multipart/form-data">
+<form id="ccform2" name="ccform2" action="page.php?p=volunteer&s=contact&form_submitted=1" method="post" enctype="multipart/form-data">
 <input name="ID" type="hidden" value="44853"><input name="pagepath" type="hidden" value="Volunteer/Volunteer_Form">
 <input type="hidden" name="ProcessClientForm" value="true">
 <input type="hidden" name="ClientFormID" value="1413">
@@ -65,7 +137,7 @@ display:none;
 <td valign="top" class="displayFieldLabel"><span class="displayFieldLabelText">What areas apart from the above are of interest to you?:&nbsp;</td><td valign="top" class="displayFieldContents"><textarea name="interests_question" cols="60" rows="5" placeholder=""></textarea>
 </td>
 </tr>
-<tr class="formAltRow">
+<tr class="formAltRow">	
 <td valign="top" class="displayFieldLabel"><span class="displayFieldLabelText">Which orientation session can you attend?:&nbsp;<span class="requiredField">*</span></span></td><td valign="top" class="displayFieldContents"><textarea name="orientation_date" cols="60" rows="2" placeholder=""></textarea>
 </td>
 </tr>
