@@ -17,7 +17,7 @@
 <p><span style="color: rgb(0, 0, 255);"><strong>Interim Executive Director</strong></span>:&nbsp;<a href="mailto:Karen@matthewhouse.ca">karenfrancis@matthewhouse.ca</a></p>
 <p><span style="color: rgb(0, 0, 255);"><strong>Founding Director</strong>:</span> <a href="mailto:anne@matthewhouse.ca">anne@matthewhouse.ca</a></p>
 <p><strong><span style="color: rgb(0, 0, 255);">Operations Director</span></strong>: <a href="index.html">astar@matthewhouse.ca</a></p>
-<p>Find our complete staff list on the <a href="indexd05b.html?pagepath=About_Us/Our_Team&amp;id=43700">Our Team </a>page</p>
+<p>Find our complete staff list on the <a href="page.php?p=about&s=team">Our Team </a>page</p>
 <p>&nbsp;</p>
 <p><strong>C</strong><strong>o</strong><strong>rrespondence can be directed to:</strong></p>
 <p>Matthew House<br />
