@@ -92,11 +92,6 @@
 																										<?php
 																											}
 																										?>
-																										<script type="text/javascript">
-																										<!--
-																										document.getElementById('newstickercontainer').style.display='block';
-//-->
-</script>
 </div>
 </div>
 <div style="margin:0px;padding:0px;height:0px;clear:both;"></div>
