@@ -160,7 +160,15 @@
 				</div>
 				<div class="maincolbox" style='clear:both;' controller="1">
 					<div class="maincolcblock ywdblock_coords">
-						<div class="wp" style='top:800px;left:459px;position:absolute;' id='ywdautoformat0'><p><a href="index969d.html?eventid=8256&amp;pagepath=Events&amp;id=49964#event8256"><img alt="" src="site/ywd_trialsite_1564/assets/images/run_banner.jpg" style="width: 500px; height: 288px;" /></a></p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
+						<div class="wp" style='top:800px;left:459px;position:absolute;' id='ywdautoformat0'>
+							<p>
+							<a href="http://ow.ly/Vl8gx">
+								<img alt="" src="site/ywd_trialsite_1564/assets/images/giftofhope_banner-1.jpg" style="width: 513px; height: 190px;" />
+							</a>
+							</p>
+						</div>
+					<div style="margin:0px;padding:0px;height:0px;clear:both;">
+				</div>	
 					</div>
 				</div>
 			</div>
