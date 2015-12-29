@@ -17,11 +17,12 @@
 
 <script type="text/javascript">
   $( document ).ready(function() {
-
+    setTimeout(function() {
       $("#g-recaptcha-response").attr('data-parsley-group','block1');
       $("#g-recaptcha-response").attr('data-parsley-required','true');
       $("#g-recaptcha-response").attr('data-parsley-remote-message','Wrong Captcha');
-      $("#g-recaptcha-response").attr('data-parsley-remote','util/recaptcha.php');
+      $("#g-recaptcha-response").attr('data-parsley-remote','util/recaptcha.php');      
+        }, 2000);
   });
 
 </script>
@@ -167,8 +168,9 @@ h5 {
 <script type="text/javascript">
 $(function () {
   $('#ccform2').parsley().on('field:validated', function() {
+    //console.log("error " + $('.parsley-error').length)
     var ok = $('.parsley-error').length === 0;
-    $('.bs-callout-info').toggleClass('hidden', !ok);
+    //$('.bs-callout-info').toggleClass('hidden', !ok);
     $('.bs-callout-warning').toggleClass('hidden', ok);
   })
   .on('form:submit', function() {
