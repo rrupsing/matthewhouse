@@ -17,7 +17,7 @@
 <link rel="stylesheet" type="text/css" href="library/javascript/flexslider/flexslider.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <link href="site/ywd_prototype/library/css/superfish1-7-5/css/superfish.css" media="screen" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="site/ywd_prototype/library/css/superfish1-7-5/js/superfish.js"></script>
+<!--<script type="text/javascript" src="site/ywd_prototype/library/css/superfish1-7-5/js/superfish.js"></script>
 <script type="text/javascript">
 // initialise plugins
 jQuery(function(){
@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
 	}); 
 }); 
 </script>
-
+-->
 
 <link href="site/ywd_prototype/display/templates/t5/library/skins/10/background/1.css" rel="stylesheet" type="text/css" />
 <link href="site/ywd_trialsite_1564/library/css/designer.css" rel="stylesheet" type="text/css" />
@@ -64,8 +64,8 @@ a.footer_link { color: rgb(0,204,255);}
 <link media="print" href="site/ywd_prototype/library/css/printerfriendly.css" rel="stylesheet" type="text/css" />
 <link href="site/ywd_trialsite_1564/library/css/designer-custom3.css" rel="stylesheet" type="text/css" />
 <link href="site/ywd_trialsite_1564/library/css/designer-custom4.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript1.1" type="text/javascript">
-</script>
+<!--<script language="JavaScript1.1" type="text/javascript">
+</script>-->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -76,9 +76,10 @@ ga('send', 'pageview');
 </script>
 <link rel="canonical" href="index.php" /> 
 
+<!--
 <script type="text/javascript" src="site/ywd_trialsite_1564/library/scripts/body-opening-scripts1.js"></script>
 <script type="text/javascript" src="site/ywd_trialsite_1564/library/scripts/body-opening-scripts2.js"></script>
-
+-->
 <div id="ywdstretchedback"></div>
 <div id="calendar"></div>
 <div id="caldetail"></div>
