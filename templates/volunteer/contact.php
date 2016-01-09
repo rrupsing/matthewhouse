@@ -68,33 +68,34 @@ h5 {
 <td valign="top" class="displayFieldLabel">
 <span class="displayFieldLabelText">First Name: <span class="requiredField">*</span></span>
   <td valign="top" class="displayFieldContents">
-  <input class="displayFieldInput" data-parsley-minlength="2" required="" name="name" type="text" value="" size="30" maxlength="30" />
+  <input class="displayFieldInput" data-parsley-minlength="2" required="" name="First Name" type="text" value="" size="30" maxlength="30" />
   </td>
 </tr>
 <tr class="formAltRow">
 <td valign="top" class="displayFieldLabel">
 <span class="displayFieldLabelText">Last Name: <span class="requiredField">*</span></span>
 <td valign="top" class="displayFieldContents">
-  <input class="displayFieldInput" name="last_name" type="text" value="" size="30" maxlength="30" required="" data-parsley-minlength="2" />
+  <input class="displayFieldInput" name="Last Name" type="text" value="" size="30" maxlength="30" required="" data-parsley-minlength="2" />
 </td>
 </tr>
 <tr >
 <td valign="top" class="displayFieldLabel">
-<span class="displayFieldLabelText">Group Name (if applicable): <td valign="top" class="displayFieldContents"><input class="displayFieldInput" name="group_name" type="text" value="" size="30" maxlength="30" />
+<span class="displayFieldLabelText">Group Name (if applicable): <td valign="top" class="displayFieldContents">
+  <input class="displayFieldInput" name="Group Name" type="text" value="" size="30" maxlength="30" />
 </td>
 </tr>
 <tr class="formAltRow">
 <td valign="top" class="displayFieldLabel">
 <span class="displayFieldLabelText">Email: <span class="requiredField">*</span></span>
 <td valign="top" class="displayFieldContents">
-  <input class="displayFieldInput" name="email" type="email" value="" size="30" maxlength="30" data-parsley-trigger="change" required=""  />
+  <input class="displayFieldInput" name="Email" type="email" value="" size="30" maxlength="30" data-parsley-trigger="change" required=""  />
 </td>
 </tr>
 <tr >
 <td valign="top" class="displayFieldLabel">
 <span class="displayFieldLabelText">Phone: <span class="requiredField">*</span></span>
 <td valign="top" class="displayFieldContents">
-  <input class="displayFieldInput" name="phone" type="text" value="" size="30" maxlength="30" required="" />
+  <input class="displayFieldInput" name="Phone" type="text" value="" size="30" maxlength="30" required="" />
 </td>
 </tr>
 <tr class="formAltRow">
@@ -117,7 +118,7 @@ h5 {
 <td valign="top" class="displayFieldLabel">
   <span class="displayFieldLabelText">What areas apart from the above are of interest to you?:&nbsp;</td>
     <td valign="top" class="displayFieldContents">
-      <textarea name="interests_question" cols="60" rows="5" placeholder=""></textarea>
+      <textarea name="Interests" cols="60" rows="5" placeholder=""></textarea>
 </td>
 </tr>
 <tr class="formAltRow"> 
@@ -125,14 +126,14 @@ h5 {
   <span class="displayFieldLabelText">Which orientation session can you attend?:&nbsp;<span class="requiredField">*</span>
 </span></td>
 <td valign="top" class="displayFieldContents">
-  <textarea name="orientation_date" cols="60" rows="2" placeholder="" required=""></textarea>
+  <textarea name="Orientation Date" cols="60" rows="2" placeholder="" required=""></textarea>
 </td>
 </tr>
 <tr >
 <td valign="top" class="displayFieldLabel">
   <span class="displayFieldLabelText">How did you hear about us?:&nbsp;<span class="requiredField">*</span></span></td>
   <td valign="top" class="displayFieldContents">
-    <textarea name="where_hear" cols="60" rows="5" placeholder="" required=""></textarea>
+    <textarea name="Where did you hear about us" cols="60" rows="5" placeholder="" required=""></textarea>
 </td>
 </tr>
 <tr>
@@ -174,7 +175,81 @@ $(function () {
     $('.bs-callout-warning').toggleClass('hidden', ok);
   })
   .on('form:submit', function() {
-    return false; // Don't submit form for this demo
+
+      $subject = "Volunteer submission";
+      $body = "Submission details:<br><br>";
+      $from = "";
+      $email = "";
+      $checkbox_choices = "";
+      $('#ccform2 input, select, textarea').each(
+          function(index){  
+              var input = $(this);
+
+              var type = input.attr('type');
+              var name = input.attr('name');
+              if (type != "hidden" && type != "submit" && name.indexOf("recaptcha") == -1)
+              {
+
+                if (type == "checkbox")
+                {
+                  if (input.prop("checked") == true)
+                  {
+                    $checkbox_choices += name + ': ' + input.val() + "<br>";
+                  }
+                }
+                else
+                {
+                  $body += name + ': ' + input.val() + "<br><br>";
+
+                  if (name == "Email")
+                  {
+                    $email = input.val();
+                  }
+                  else if (name == "First Name")
+                  {
+                    $from = input.val();
+                  }
+                }
+              }
+          }
+      );
+
+      $body += "<br>" + $checkbox_choices;
+
+      // submit this form via js
+
+      $("#submitButton").hide();
+
+      // submit form
+      $.ajax({
+        type: "POST",
+        url: "https://mandrillapp.com/api/1.0/messages/send.json",
+        data: {
+          'key': "SuHidAwFRPjJHiJ2YvW6Xg",
+          'message': {
+            'from_email': "support@pointerware.net",
+            'to': [
+                {
+                  'email': "raul@pointerware.net",
+                  'name': "Raul",
+                  'type': 'to',
+                }
+              ],
+            'autotext': 'true',
+            'subject': $subject,
+            'html': $body
+          }
+        },
+          success: function(data) {
+            console.log(data);
+            window.location = "page.php?p=volunteer&s=volunteer";
+          },
+                error: function(XMLHttpRequest, textStatus, errorThrown) { 
+                    alert("Status: " + textStatus); alert("Error: " + errorThrown); 
+                }  
+              });     
+
+      return true;
   });
 });
 </script>
