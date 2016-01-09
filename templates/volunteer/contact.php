@@ -180,7 +180,7 @@ $(function () {
       $body = "Submission details:<br><br>";
       $from = "";
       $email = "";
-      $checkbox_choices = "";
+      $checkbox_choices = "Volunteer Interests: <br>";
       $('#ccform2 input, select, textarea').each(
           function(index){  
               var input = $(this);
@@ -194,7 +194,7 @@ $(function () {
                 {
                   if (input.prop("checked") == true)
                   {
-                    $checkbox_choices += name + ': ' + input.val() + "<br>";
+                    $checkbox_choices += input.val() + "<br>";
                   }
                 }
                 else
@@ -214,7 +214,7 @@ $(function () {
           }
       );
 
-      $body += "<br>" + $checkbox_choices;
+      $body += $checkbox_choices;
 
       // submit this form via js
 
