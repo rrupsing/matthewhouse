@@ -1,5 +1,17 @@
 <?php $this->layout('template', ['title' => 'Matthew House | Refugee Reception Services Toronto']) ?>
 
+<?php 
+include('../wordpress/wp-load.php'); 
+
+// Get the last 10 posts
+// Returns posts as arrays instead of get_posts' objects
+$recent_posts = wp_get_recent_posts(array(
+	'numberposts' => 3
+));
+
+?>
+
+
 
 										<table id="outercontenttable" width="100%" border="0" cellspacing="0" cellpadding="0">
 											<tr>
@@ -62,29 +74,25 @@
 																							<p><img alt="" height="0" src="site/ywd_trialsite_1564/assets/images/spacer.jpg" width="0" /></p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
 																						</div>
 																					</div>
-																					<div class="leftcolbox" style='clear:both;' controller="1">
+																					<div class="leftcolbox" style='clear:both; margin-bottom: 20px;' controller="1">
 																						<div class="leftcolcblock ywdblock_stacked">
 																							<div class="wp"><h3><span style="color: rgb(0, 121, 193);">NEWS</span></h3></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
 																						</div>
 																					</div>
-																					<div class="leftcolbox" style='clear:both;' controller="1">
 																						<div class="leftcolcblock ywdblock_stacked">
 																							<div class="nwp">
 																								<div class="ywdnewsmanager">
 																									<div class="ywdnews">
 																										<?php
-																											require("resources/news_manager.php");
-																											$recent = NewsManager::getRecentNews(3);
-
-																											foreach ($recent as $k => $v)
+																											foreach ($recent_posts as $post)
 																											{
 																										?>
 																												<div class="ywdnewsmanager">
 																													<div class="ywdnewsitem">
-																														<div><?php echo $k;?></div> 
 																														<div style="padding-bottom:0.5em;">
-																															<a href="pages.php?p=about?s=news_article&article&article=<?php echo $k;?>">
-																																<?php echo $v;?>
+																															(<?php echo substr($post['post_date'], 0, 10);?>)
+																															<a href="<?php echo post_permalink( $post['ID'] );?>" target="_blank">
+																																<?php echo $post['post_title'];?>
 																															</a>
 																														</div>
 																													</div>
