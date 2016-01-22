@@ -90,7 +90,7 @@ $recent_posts = wp_get_recent_posts(array(
 																												<div class="ywdnewsmanager">
 																													<div class="ywdnewsitem">
 																														<div style="padding-bottom:0.5em;">
-																															(<?php echo substr($post['post_date'], 0, 10);?>)
+																															<?php echo date_format(date_create(substr($post['post_date'], 0, 10)), 'M-d');?>
 																															<a href="<?php echo post_permalink( $post['ID'] );?>" target="_blank">
 																																<?php echo $post['post_title'];?>
 																															</a>
