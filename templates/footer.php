@@ -34,7 +34,7 @@
 </table>
 </div>
 </div>
-<script type="text/javascript" src="site/ywd_prototype/library/javascript/sitespecific.js"></script>
+<!--<script type="text/javascript" src="site/ywd_prototype/library/javascript/sitespecific.js"></script>-->
 <link rel="stylesheet" href="site/ywd_prototype/library/javascript/prettyPhoto3-1-5/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 <script src="site/ywd_prototype/library/javascript/prettyPhoto3-1-5/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <!--<script type="text/javascript" charset="utf-8">

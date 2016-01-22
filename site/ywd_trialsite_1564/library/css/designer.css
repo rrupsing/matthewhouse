@@ -148,7 +148,6 @@
 			font-family: 'DroidSansRegular';
 			src: url('../../../ywd_prototype/library/css/fonts/DroidSans-webfont.eot');
 			src: url('../../../ywd_prototype/library/css/fonts/DroidSans-webfontd41d.eot?#iefix') format('embedded-opentype'),
-				 url('../../../ywd_prototype/library/css/fonts/DroidSans-webfont.html') format('woff'),
 				 url('../../../ywd_prototype/library/css/fonts/DroidSans-webfont.ttf') format('truetype');
 			font-weight: normal;
 			font-style: normal;
@@ -158,7 +157,6 @@
 			font-family: 'DroidSansBold';
 			src: url('../../../ywd_prototype/library/css/fonts/DroidSans-Bold-webfont.eot');
 			src: url('../../../ywd_prototype/library/css/fonts/DroidSans-Bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
-				 url('../../../ywd_prototype/library/css/fonts/DroidSans-Bold-webfont.html') format('woff'),
 				 url('../../../ywd_prototype/library/css/fonts/DroidSans-Bold-webfont.ttf') format('truetype');
 			font-weight: normal;
 			font-style: normal;

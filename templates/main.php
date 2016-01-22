@@ -42,14 +42,14 @@ $recent_posts = wp_get_recent_posts(array(
 																				<div class="nwp">
 																					<div id="ywdcblock125862" class="ywdyoutubevideobox" style="width:300px;height:200px;">
 																						<div id="ywdcblock125862_video" style="display:none;">
-																							<iframe id="ywdcblock125862_videoframe" width="300" height="200" src="http://www.youtube.com/embed/tE_Vh4DOXG4?rel=0&amp;" frameborder="0" allowfullscreen></iframe>
+																							<iframe id="ywdcblock125862_videoframe" width="300" height="200" src="http://www.youtube.com/v/tE_Vh4DOXG4?rel=0&amp;" frameborder="0" allowfullscreen></iframe>
 																						</div>
 																						<div id="ywdcblock125862_still" style="position:relative;left:0px;top:0px;">
 																							<div class="ywdyoutubevideostill" style="position:relative;top:0px;left: 0px;">
 																								<img src="site/ywd_trialsite_1564/assets/images/Landing-page_video-photo.jpg" alt="Video still frame" style="width:300px;height:200px;" onclick="document.getElementById('ywdcblock125862_still').style.display='none';document.getElementById('ywdcblock125862_video').style.display='block';document.getElementById('ywdcblock125862_videoframe').src='http://www.youtube.com/embed/tE_Vh4DOXG4?rel=0&amp;&amp;autoplay=1';">
 																							</div>
 																							<div class="ywdyoutubevideostill" style="position:absolute;top:32px; left:82px;width:136px;">
-																								<img src="site/master/admin/applications/youtube/youtube_play_circle_large.png" alt="Play button" onclick="document.getElementById('ywdcblock125862_still').style.display='none';document.getElementById('ywdcblock125862_video').style.display='block';document.getElementById('ywdcblock125862_videoframe').src='http://www.youtube.com/embed/tE_Vh4DOXG4?rel=0&amp;&amp;autoplay=1';">
+																								<img src="site/master/admin/applications/youtube/youtube_play_circle_large.png" alt="Play button" onclick="document.getElementById('ywdcblock125862_still').style.display='none';document.getElementById('ywdcblock125862_video').style.display='block';document.getElementById('ywdcblock125862_videoframe').src='http://www.youtube.com/v/tE_Vh4DOXG4?rel=0&amp;&amp;autoplay=1';">
 																							</div>
 																						</div>
 																					</div>
