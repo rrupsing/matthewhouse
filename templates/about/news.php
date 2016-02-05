@@ -1,1 +1,1 @@
-<?php header('Location: http://www.house.raulrupsingh.com/wordpress'); ?>
+<?php header('Location: http://www.matthewhouse.ca/wordpress'); ?>
