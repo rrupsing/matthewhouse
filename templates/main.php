@@ -159,11 +159,12 @@ $recent_posts = wp_get_recent_posts(array(
 				</div>
 				<div class="maincolbox" style='clear:both;' controller="1">
 					<div class="maincolcblock ywdblock_stacked">
+						<!--
 						<div class="nwp">
 							<script type="text/javascript" src="http://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us7.list-manage.com","uuid":"e4fd4c130035d860e9c4076e1","lid":"f791e9255d"}) })</script>
 							<div style="margin:0px;padding:0px;height:0px;clear:both;"></div>
-							<!-- Google Search Result Snippet Ends -->
 						</div>	
+						-->
 					</div>
 				</div>
 				<div class="maincolbox" style='clear:both;' controller="1">
