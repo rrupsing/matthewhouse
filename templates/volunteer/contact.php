@@ -227,7 +227,8 @@ $(function () {
         data: {
           'key': "SuHidAwFRPjJHiJ2YvW6Xg",
           'message': {
-            'from_email': $email,
+            'from_email': "volunteer@matthewhouse.ca",
+            "from_name": $from,
             'to': [
                 {
                   'email': "volunteer@matthewhouse.ca",
@@ -236,6 +237,9 @@ $(function () {
                 }
               ],
             'autotext': 'true',
+            "headers": {
+              "Reply-To": $email
+            },
             'bcc_address': 'raul@matthewhouse.ca',
             'subject': $subject,
             'html': $body
