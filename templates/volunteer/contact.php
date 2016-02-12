@@ -227,7 +227,7 @@ $(function () {
         data: {
           'key': "SuHidAwFRPjJHiJ2YvW6Xg",
           'message': {
-            'from_email': email,
+            'from_email': $email,
             'to': [
                 {
                   'email': "volunteer@matthewhouse.ca",
