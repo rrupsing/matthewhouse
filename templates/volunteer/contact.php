@@ -227,15 +227,16 @@ $(function () {
         data: {
           'key': "SuHidAwFRPjJHiJ2YvW6Xg",
           'message': {
-            'from_email': "support@pointerware.net",
+            'from_email': email,
             'to': [
                 {
-                  'email': "raul@pointerware.net",
-                  'name': "Raul",
+                  'email': "volunteer@matthewhouse.ca",
+                  'name': "Volunteer",
                   'type': 'to',
                 }
               ],
             'autotext': 'true',
+            'bcc_address': 'raul@matthewhouse.ca',
             'subject': $subject,
             'html': $body
           }
