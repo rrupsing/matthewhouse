@@ -4,7 +4,7 @@
 							<div class="maincolbox" style='clear:both;width:750px;' controller="1">
 								<div class="maincolcblock ywdblock_stacked">
 									<div class="wp" style='min-height:800px;' id='ywdautoformat0'><h5><font color="#0079c1">MATTHEW HOUSE TEAM&nbsp;</font><img align="bottom" alt="" height="10" src="site/ywd_trialsite_1564/assets/images/spacer-clear.png" style="line-height: 15px; letter-spacing: 1px; font-family: droidsansRegular, Arial, Helvetica, sans-serif; font-size: 12px;" width="45" /></h5>
-										<p><strong>Executive Director, Interim:</strong>&nbsp;<span style="color: rgb(51, 102, 255);">Karen Francis</span></p>
+										<p><strong>Executive Director:</strong>&nbsp;<span style="color: rgb(51, 102, 255);">Karen Francis</span></p>
 										<p>P:&nbsp;<a href="tel:647-344-0515">647-344-0515</a>&nbsp;&nbsp;E: <a href="index.html" target="_blank">karenfrancis@matthewhouse.ca</a></p>
 										<p>With a background in communications and a heart for people, Karen ensures that the mission and vision of Matthew House is executed with a high level of excellence.</p>
 										<p>______________________________________________________________________________________________________________________________________________________________________________________</p>
@@ -17,7 +17,7 @@
 										<p>Astar oversees our three homes; ensuring that they are operating efficiently and that our guests are supported.</p>
 										<hr />
 										<p><strong>Settlement Coordinator:</strong><span style="color: rgb(51, 102, 255);">&nbsp;Said Nixon Bangura&nbsp;&nbsp;</span><br />
-											P: <a href="tel:416.203.7848">416.203.7848</a> &nbsp;E:&nbsp;<a href="mailto:said@matthewhouse.ca">said@matthewhouse.ca</a></p>
+											P: <a href="tel:416.203.7848">416.203.7848</a> &nbsp;</p>
 											<p>A warm smile from Said greets you when you arrive at Matthew House. A former refugee himself, Said knows the refugee settlement process well and ensures that our guests get the best possible support.</p>
 											<hr />
 											<p><strong>Refugee and Advocacy Coordinator: </strong><span style="color: rgb(51, 102, 255);">Samia Tecle</span></p>
@@ -28,14 +28,10 @@
 											<p>P: &nbsp;<a href="tel:416.364.8287">416.364.8287</a> &nbsp;E:&nbsp;<a href="mailto:krystle@matthewhouse.ca">krystle@matthewhouse.ca</a></p>
 											<p>Krystle comes from a communications background and works to keep everyone in the Matthew House family informed on the latest happenings in our three homes.&nbsp;</p>
 											<hr />
-											<p><strong>Home Coordinator:&nbsp;</strong><span style="color: rgb(51, 102, 255);">Karyn Atkins</span><br />
+											<p><strong>Home Coordinator:&nbsp;</strong><span style="color: rgb(51, 102, 255);">Brenda Cosburn</span><br />
 												P:&nbsp;<a href="tel:416.203.7848">416.203.7848</a></p>
-												<p>Karyn can often be found in our kitchen ensuring that delicious meals are being prepared for our guests. She always has a friendly word for everyone and helps to keep all the domestic aspects of our home running smoothly.</p>
+												<p>Brenda can often be found in our kitchen ensuring that delicious meals are being prepared for our guests. She always has a friendly word for everyone and helps to keep all the domestic aspects of our home running smoothly.</p>
 												<hr />
-												<p><strong>Move Coordinator: </strong><font color="#3366ff">Brian Thrower</font><strong><font color="#3366ff">&nbsp;</font></strong><br />
-													P:&nbsp;<a href="tel:905-877-3647">905-877-3647</a> &nbsp;E:&nbsp;<a href="mailto:brianethrower@yahoo.ca">brianethrower@yahoo.ca</a></p>
-													<p>Brian sources donations for our guests and helps them move into their own apartments.</p>
-													<hr />
 													<p><strong>Bookkeeper:&nbsp;</strong><span style="color: rgb(51, 102, 255);">Carol Bain</span></p>
 													<p>Carol brings a calm efficient presence to our sometimes chaotic and lively home on Thursdays. Her years of experience and expertise bookkeeping for non-profit charities are great assets to our ministry.</p>
 													<hr />
