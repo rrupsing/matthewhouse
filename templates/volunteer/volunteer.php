@@ -15,10 +15,10 @@
 <div class="maincolbox" style='clear:both;' controller="1">
 <div class="maincolcblock ywdblock_stacked">
 <div class="wp"><p><span style="color: rgb(0, 121, 193);">THE NEXT VOLUNTEER ORIENTATION DATES ARE:</span></p>
-<p>Monday, July 13</p>
-<p>Monday, August 24</p>
-<p>Monday, October 5</p>
-<p>Monday, November 16</p>
+<p>Feb 19</p>
+<p>April 11</p>
+<p>May 22</p>
+<p>June 27</p>
 <p><strong>Sessions begin at 7:00 pm at our home at 981 Dundas St. West, Toronto</strong></p>
 <p>To RSVP please COMPLETE the Volunteer form, noting the orientation&nbsp;date you would like to attend&nbsp;and email our&nbsp;<span style="color: rgb(0, 121, 193);"><a href="mailto:volunteer@matthewhouse.ca?subject=Volunteer%20Opportunity">volunteer</a>&nbsp;</span><a href="mailto:volunteer@matthewhouse.ca?subject=Volunteer%20Opportunity">coordinator</a></p>
 <p>&nbsp;<img alt="" height="30" src="site/ywd_trialsite_1564/assets/images/blue-dotted-line.png" width="678" /></p>
