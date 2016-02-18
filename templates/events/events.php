@@ -11,15 +11,9 @@
 <div class="maincolcblock ywdblock_stacked">
 <div class="nwp">
 <div class="eventslistdiv">
-<table class="eventslisttable" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td class="eventlistics"> 
-</td> 
-<tr>
-<td></td>
-</tr>
-</tr>
-</table>
+
+	<iframe src="https://calendar.google.com/calendar/embed?title=Matthew%20House%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	
 </div>
 <div style="margin:0px;padding:0px;height:0px;clear:both;"></div>
 <!-- Google Search Result Snippet Ends -->
