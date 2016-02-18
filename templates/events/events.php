@@ -12,8 +12,7 @@
 <div class="nwp">
 <div class="eventslistdiv">
 
-	<iframe src="https://calendar.google.com/calendar/embed?title=Matthew%20House%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-	
+<iframe src="https://calendar.google.com/calendar/embed?title=Matthew%20House%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=matthewhouse.ca_fg44t352aplrbaavsns4r9ge14%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FToronto" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>	
 </div>
 <div style="margin:0px;padding:0px;height:0px;clear:both;"></div>
 <!-- Google Search Result Snippet Ends -->
