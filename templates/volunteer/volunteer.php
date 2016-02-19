@@ -15,7 +15,7 @@
 <div class="maincolbox" style='clear:both;' controller="1">
 <div class="maincolcblock ywdblock_stacked">
 <div class="wp"><p><span style="color: rgb(0, 121, 193);">THE NEXT VOLUNTEER ORIENTATION DATES ARE:</span></p>
-<p>Feb 19, 2016</p>
+<p>Feb 29, 2016</p>
 <p>April 11, 2016</p>
 <p>May 22, 2016</p>
 <p>June 27, 2016</p>
