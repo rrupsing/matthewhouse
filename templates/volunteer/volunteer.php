@@ -3,11 +3,18 @@
 <div id="content">
 <div class="maincolbox" style='clear:both;' controller="1">
 <div class="maincolcblock ywdblock_stacked">
-
+<!--
 <iframe src="http://www.matthewhouse.ca/wordpress/volunteers-we-need-you/" style="width: 90%; height: 600px"
 scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0">
 </iframe>
+-->
 
+<?php
+	
+	include('../wordpress/wp-load.php'); 
+	$page = get_page_by_title('Volunteers');
+	echo $page->post_content;
+?>
 
 </div>
 <div class="maincolbox" style='clear:both;' controller="1">
