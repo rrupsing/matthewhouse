@@ -53,7 +53,7 @@ data="http://www.youtube.com/v/tE_Vh4DOXG4?&showinfo=0&rel=0">
 														</div>
 														<div class="maincolbox" style='clear:both;' controller="1">
 															<div class="maincolcblock ywdblock_coords">
-																<div class="wp" style='top:205px;right:169px;position:absolute;' id='ywdautoformat0'><p><a href="http://www.canadahelps.org/CharityProfilePage.aspx?charityID=s80711" target="_blank"><img alt="" src="site/ywd_trialsite_1564/assets/images/screen_shot_2012-08-02_at_5.45.09_pm.png" style="width: 195px; height: 60px;" /></a>&nbsp;</p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
+																<div class="wp" style='top:155px;right:169px;position:absolute;' id='ywdautoformat0'><p><a href="http://www.canadahelps.org/CharityProfilePage.aspx?charityID=s80711" target="_blank"><img alt="" src="site/ywd_trialsite_1564/assets/images/screen_shot_2012-08-02_at_5.45.09_pm.png" style="width: 195px; height: 60px;" /></a>&nbsp;</p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
 															</div>
 														</div>
 													</div>
