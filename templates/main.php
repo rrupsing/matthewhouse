@@ -40,6 +40,13 @@ $recent_posts = wp_get_recent_posts(array(
 																		<div class="leftcolbox" style='clear:both;' controller="1">
 																			<div class="leftcolcblock ywdblock_stacked">
 																				<div class="nwp">
+																					<object width="300" height="200" type="application/x-shockwave-flash"
+																					data="http://www.youtube.com/v/tE_Vh4DOXG4?&showinfo=0&rel=0">
+																					<param name="movie" value="http://www.youtube.com/v/tE_Vh4DOXG4"></param>
+																					<param name="allowscriptaccess" value="always"></param>
+																					<param name="allowFullScreen" value="true"></param>
+																					</object>
+																					<!--
 																					<div id="ywdcblock125862" class="ywdyoutubevideobox" style="width:300px;height:200px;">
 																						<div id="ywdcblock125862_video" style="display:none;">
 																							<iframe id="ywdcblock125862_videoframe" width="300" height="200" src="http://www.youtube.com/v/tE_Vh4DOXG4?rel=0&html5=1&amp;" frameborder="0" allowfullscreen></iframe>
@@ -53,6 +60,7 @@ $recent_posts = wp_get_recent_posts(array(
 																							</div>
 																						</div>
 																					</div>
+																					-->
 																					<div style="margin:0px;padding:0px;height:0px;clear:both;"></div>
 																					<!-- Google Search Result Snippet Ends -->
 																				</div>	
