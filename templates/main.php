@@ -21,13 +21,16 @@ $recent_posts = wp_get_recent_posts(array(
 														<div id="contentheader">
 															<div class="maincolbox" style='clear:both;width:600px;' controller="1">
 																<div class="maincolcblock ywdblock_coords">
-																	<div class="wp" style='border-width:0px;border-style:solid;padding:20px;border:none;top:1100px;left:409px;position:absolute;' id='ywdautoformat2'><h6 style="margin-top: 0"><span style="color: rgb(0, 153, 153);">Canada</span></h6>
-																		<p><span style="color: rgb(0, 153, 153);">Refugees come to Canada in three different ways. Traditionally about 7,000 refugees per year are sponsored by the government. This year the Syrian influx is a special exception and could result in an additional 25,000 or more arrivals. Another 3,000 per year are sponsored by private groups, such as churches.&nbsp;Historically the largest group, which recently numbered more than 15,000 per year, come to Canada as refugee claimants. This is the group whom Matthew House serves</span></p>
-																		<p><span style="color: rgb(0, 153, 153);">There is no system in place to welcome or assist refugee claimants. They are simply numbered among the homeless, often without resources. Many are forced to look for help in inappropriate city shelters not equipped to meet their needs. Government policies are becoming harsher and there is no structure in place to directly look after their well-being. Despite having reached a safe country, they are at risk of being victimized and traumatized again. Matthew House serves this group of vulnerable refugee claimants.</span></p>
-																		<p><span style="color: rgb(0, 153, 153);">Learn more at the&nbsp;</span><a href="http://ccrweb.ca/"><span style="color: rgb(0, 95, 140);">Canadian Council for Refugees</span></a>&nbsp;<span style="color: rgb(0, 153, 153);">website.</span></p>
+																	<div class="wp" style='border-width:0px;border-style:solid;padding:20px;border:none;top:1100px;left:409px;position:absolute;' id='ywdautoformat2'>
+			<p>According to the United Nation&rsquo;s definition, a refugee is defined as &ldquo;a person outside his or her country of origin who has a well-founded fear of being persecuted for reasons of race, religion, nationality, membership in a particular social group or political opinion.&rdquo;</p>
+
 																		<h6><span style="color: rgb(51, 102, 153);">How We Help</span></h6>
-																		<p><span style="color: rgb(51, 102, 153);">Acting on God&rsquo;s call to welcome the stranger, we warmly receive and assist refugee claimants from all nations regardless of their race, religion, sexual orientation or political opinion. We strive to make Matthew House a place where God&rsquo;s love is felt and communicated within an atmosphere of welcome and peace.</span></p>
-																		<p><span style="color: rgb(51, 102, 153);">Since opening in 1998, we have welcomed over 1,200 refugee claimants from 87 different nations. Caring staff and volunteers foster an environment where weary refugees find safety and rest, receive support in meeting practical needs and making connections in their new country. Our services include: help with refugee claim applications, orientation to living in Canada, finding and furnishing apartments and referrals to counseling and other support services as needed.</span></p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
+																		<p><span style="color: rgb(51, 102, 153);">Matthew House welcomes and assists newly arrived refugee claimants - those who ask for asylum upon arrival in Canada.  There is no system in place to assist them and hence they sometimes spend their first night in Canada literally on the street or at rough homeless shelters. Despite having reached a safe country, they are at risk of being victimized and retraumatized. Matthew House serves this group of very vulnerable refugee claimants.</span></p>
+<p><span style="color: rgb(51, 102, 153);">Since opening in 1998 we have assisted over 1,400 refugee claimants from 93 different nations.  We welcome all refugees regardless of their race, religion, sexual orientation or political opinion. We strive to make Matthew House a place where God’s love is felt and experienced and where refugee's dignity and hope are restored.</span></p>
+<p><span style="color: rgb(51, 102, 153);">At Matthew House, staff and volunteers foster a supportive community dedicated to meeting all their basic needs.  Our services include: safe shelter, expert settlement and orientation support, assistance with their refugee claim process and finding and furnishing apartments. Most importantly, we are a place of love and hope.  In addition to our main reception house, we have two transition homes where extra vulnerable residents such as unacompanied teens or single mothers may stay and receive longer term support.</span></p>
+<p><span style="color: rgb(51, 102, 153);">Matthew House does not receive any direct government funding but simply exists thanks to a supportive community of individuals, foundations and groups who care about the plight of refugees.</span></p>
+<p><span style="color: rgb(51, 102, 153);">In short, the Matthew House community serves as a "sponsor" by default for those who seek asylum in Canada and have no support system of their own. We exist thanks to Canadians who care about the plight of refugees.  We welcome your tanglible support in helping us serve the "forgotten refugees" arriving on our doorstep daily.  Thank you!</span></p>
+
 																	</div>
 																</div>
 															</div>
@@ -118,18 +121,20 @@ $recent_posts = wp_get_recent_posts(array(
 <div class="leftcolbox" style='clear:both;' controller="1">
 	<div class="leftcolcblock ywdblock_stacked">
 		<div class="wp" style='z-index:4;' id='ywdautoformat0'><h5><span style="color: rgb(0, 95, 140);">FACTS ON&nbsp;REFUGEES</span></h5>
-			<p>According to the United Nation&rsquo;s definition, a refugee is defined as &ldquo;a person outside his or her country of origin who has a well-founded fear of being persecuted for reasons of race, religion, nationality, membership in a particular social group or political opinion.&rdquo;</p>
+
+																		<h6 style="margin-top: 0"><span style="color: rgb(0, 153, 153);">Canada</span></h6>
+																		<p><span style="color: rgb(0, 153, 153);">Refugees come to Canada in three different ways. Traditionally about 7,000 refugees per year are sponsored by the government. This year the Syrian influx is a special exception and could result in an additional 25,000 or more arrivals. Another 3,000 per year are sponsored by private groups, such as churches.&nbsp;Historically the largest group, which recently numbered more than 15,000 per year, come to Canada as refugee claimants. This is the group whom Matthew House serves</span></p>
+																		<p><span style="color: rgb(0, 153, 153);">There is no system in place to welcome or assist refugee claimants. They are simply numbered among the homeless, often without resources. Many are forced to look for help in inappropriate city shelters not equipped to meet their needs. Government policies are becoming harsher and there is no structure in place to directly look after their well-being. Despite having reached a safe country, they are at risk of being victimized and traumatized again. Matthew House serves this group of vulnerable refugee claimants.</span></p>
+																		<p><span style="color: rgb(0, 153, 153);">Learn more at the&nbsp;</span><a href="http://ccrweb.ca/"><span style="color: rgb(0, 95, 140);">Canadian Council for Refugees</span></a>&nbsp;<span style="color: rgb(0, 153, 153);">website.</span></p>
+
+
 			<h6><span style="color: rgb(0, 153, 153);">World</span></h6>
 			<p><span style="color: rgb(0, 153, 153);">The United Nations High Commission for Refugees puts the current number of refugees and forcibly displaced people around the world at&nbsp;51.2 million. No one becomes a refugee by choice&mdash;they are forced to flee to save their lives or preserve their freedom. They begin a long journey of danger and uncertainty on the refugee highway, seeking safety and security.</span></p>
 			<p><span style="color: rgb(0, 153, 153);">Learn more about the following International Organizations:</span><br />
 				<a href="http://www.unhcr.org/"><span style="color: rgb(0, 102, 153);">United Nations High Commissioner for Refugees</span></a><br />
-				<a href="http://www.un.org/"><span style="color: rgb(0, 102, 153);">United Nations</span></a><br />
 				<a href="http://www.ohchr.org/EN/Pages/WelcomePage.aspx"><span style="color: rgb(0, 102, 153);">United Nations High Commissioner for Human Rights</span></a><br />
 				<a href="http://www.iom.int/jahia/Jahia/lang/en/pid/1"><span style="color: rgb(0, 102, 153);">International Organization for Migration</span></a></p>
-				<p>&nbsp;</p>
-				<h3>&nbsp;</h3>
-				<h3><font color="#00a69c"><img align="bottom" alt="" height="80" src="site/ywd_trialsite_1564/assets/images/spacer-clear.png" width="358" /></font></h3>
-				<p>&nbsp;</p></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
+				</div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
 			</div>
 		</div>
 		<div class="leftcolbox" style='clear:both;' controller="1">
