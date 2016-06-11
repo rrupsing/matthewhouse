@@ -27,6 +27,13 @@
 
 </script>
 
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_z3k7IEKVJOAtMOpAdk5SY");
+   })();
+</script>
+
 <style type="text/css">
 .noshow {
 display:none;
@@ -220,6 +227,9 @@ $(function () {
 
       $("#submitButton").hide();
 
+      emailjs.send("volunteer_matthewhouse_ca","volunteer",{from_name: $from, from_email: $email, message: $body});
+
+      /*
       // submit form
       $.ajax({
         type: "POST",
@@ -251,7 +261,7 @@ $(function () {
                     alert("Status: " + textStatus); alert("Error: " + errorThrown); 
                 }  
               });     
-
+      */
       return true;
   });
 });
