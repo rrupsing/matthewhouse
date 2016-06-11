@@ -140,9 +140,9 @@ a.footer_link { color: rgb(0,204,255);}
 												<li class="<?php echo $page == 'volunteer' ? 'dhtmlbuttonactive' : ''; ?>">
 													<a href="page.php?p=volunteer&s=volunteer" style="float:left;" class="<?php echo $page == 'volunteer' ? 'dhtmlnavactive' : ''; ?>">
 														Volunteer</a>
-												<li class="<?php echo $page == 'events' ? 'dhtmlbuttonactive' : ''; ?>">
+												<!--<li class="<?php echo $page == 'events' ? 'dhtmlbuttonactive' : ''; ?>">
 													<a href="page.php?p=events&s=events" style="float:left;" class="<?php echo $page == 'events' ? 'dhtmlnavactive' : ''; ?>">
-															Events</a>
+															Events</a>-->
 												<li class="<?php echo $page == 'contact' ? 'dhtmlbuttonactive' : ''; ?>">
 													<a href="page.php?p=contact&s=contact" style="float:left;" class="<?php echo $page == 'contact' ? 'dhtmlnavactive' : ''; ?>">
 																Contact</a>
