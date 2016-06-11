@@ -240,6 +240,9 @@ $(function () {
             'html': $body
           }
         },
+        beforeSend: function(xhr) {
+              xhr.setRequestHeader( "Content-type", "application/json; charset=utf-8" );
+            },        
           success: function(data) {
             console.log(data);
             window.location = "page.php?p=volunteer&s=volunteer";
