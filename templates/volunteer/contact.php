@@ -229,6 +229,9 @@ $(function () {
 
       emailjs.send("volunteer_matthewhouse_ca","volunteer",{from_name: $from, from_email: $email, message: $body});
 
+      alert("Application Sent")
+      window.location = "page.php?p=volunteer&s=volunteer";
+
       /*
       // submit form
       $.ajax({
