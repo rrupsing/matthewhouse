@@ -193,6 +193,10 @@ $recent_posts = wp_get_recent_posts(array(
 								<img alt="" src="site/ywd_trialsite_1564/assets/images/giftofhope_banner-1.jpg" style="width: 513px; height: 190px;" />
 							</a>
 						-->
+							<a target="_blank" href="http://www.matthewhouse.ca/wordpress/?p=429&preview=true">
+								<img alt="" src="site/ywd_trialsite_1564/assets/images/mh_banner_photo.jpg" style="width: 536px; height: 402px;" />
+							</a>
+
 							</p>
 						</div>
 					<div style="margin:0px;padding:0px;height:0px;clear:both;">
