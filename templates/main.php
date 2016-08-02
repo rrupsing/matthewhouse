@@ -194,7 +194,7 @@ $recent_posts = wp_get_recent_posts(array(
 							</a>
 						-->
 							<a target="_blank" href="http://www.matthewhouse.ca/wordpress/?p=429&preview=true">
-								<img alt="" src="site/ywd_trialsite_1564/assets/images/mh_banner_photo.jpg" style="width: 536px; height: 402px;" />
+								<img alt="" src="site/ywd_trialsite_1564/assets/images/mh_banner_photo.jpg" style="height: 290px;" />
 							</a>
 
 							</p>
