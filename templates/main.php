@@ -43,12 +43,36 @@ $recent_posts = wp_get_recent_posts(array(
 																		<div class="leftcolbox" style='clear:both;' controller="1">
 																			<div class="leftcolcblock ywdblock_stacked">
 																				<div class="nwp">
+																					<div id="video-placeholder"></div>
+																					<script src="https://www.youtube.com/iframe_api"></script>
+																					<script>
+																						var player;
+
+																						function onYouTubeIframeAPIReady() {
+																						    player = new YT.Player('video-placeholder', {
+																						        width: 300,
+																						        height: 200,
+																						        videoId: 'tE_Vh4DOXG4',
+																						        playerVars: {
+																						            color: 'black'
+																						        },
+																						        events: {
+																						            onReady: initialize
+																						        }
+																						    });
+																						}				
+																						function initialize() {
+
+																						}																	
+																					</script>
+																					<!--
 																					<object width="300" height="200" type="application/x-shockwave-flash"
 																					data="http://www.youtube.com/v/tE_Vh4DOXG4?&showinfo=0&rel=0">
 																					<param name="movie" value="http://www.youtube.com/v/tE_Vh4DOXG4"></param>
 																					<param name="allowscriptaccess" value="always"></param>
 																					<param name="allowFullScreen" value="true"></param>
 																					</object>
+																					-->
 																					<!--
 																					<div id="ywdcblock125862" class="ywdyoutubevideobox" style="width:300px;height:200px;">
 																						<div id="ywdcblock125862_video" style="display:none;">
