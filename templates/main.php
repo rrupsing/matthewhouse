@@ -224,7 +224,7 @@ $recent_posts = wp_get_recent_posts(array(
 								<img alt="" src="site/ywd_trialsite_1564/assets/images/yearend_banner.png" style="height: 150px;" />
 							</a>
 							<p>
-								GIVING TUESDAY - Give back to your community on this unique day.
+								<a href="https://www.canadahelps.org/dn/29049">GIVING TUESDAY</a> - Give back to your community on this unique day.
 							</p>
 
 							</p>
