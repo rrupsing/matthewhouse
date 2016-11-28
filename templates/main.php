@@ -224,7 +224,7 @@ $recent_posts = wp_get_recent_posts(array(
 								<img alt="" src="site/ywd_trialsite_1564/assets/images/yearend_banner.png" style="height: 175px;" />
 							</a>
 							<p>
-								<a href="https://www.canadahelps.org/dn/29049">GIVING TUESDAY</a> - Give back to your community on this unique day.
+								<a href="https://www.canadahelps.org/dn/29049">#GIVINGTUESDAY</a> - A new Canadian movement to raise funds and awareness for our communities and charities, support <a href="https://www.canadahelps.org/dn/29049">The Matthew House</a> today.
 							</p>
 
 							</p>
