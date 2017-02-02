@@ -5,7 +5,7 @@
 <div class="maincolbox" style='clear:both;' controller="1">
 <div class="maincolcblock ywdblock_stacked">
 <div class="wp"><h5>CONTACT US!</h5>
-<p><strong><span style="color: rgb(0, 0, 0);">By phone:</span></strong></p>
+<p><strong>By Phone:</strong></p>
 <p><strong><font color="#0000ff">Frontline: </font><span style="color: rgb(0, 121, 193);">:</span></strong> 416.203.7848</p>
 <p><strong><font color="#0000ff">Administration Office</font><span style="color: rgb(0, 121, 193);">:</span></strong> 416.364.8287</p>
 <p><span style="color: rgb(0, 0, 255);"><strong>Operations and Executive Director</strong></span>: 647-344-0515</p>
@@ -13,7 +13,7 @@
 <p>&nbsp;</p>
 <p><strong>By Fax: &nbsp;</strong>416-203-7848</p>
 <p>&nbsp;</p>
-<p><strong>By email:</strong></p>
+<p><strong>By Email:</strong></p>
 <!--<p><strong><span style="color: rgb(0, 0, 255);">Email general inquiries</span><span style="color: rgb(0, 121, 193);">:</span></strong> <a href="mailto:admin@matthewhouse.ca">admin@matthewhouse.ca</a></p>-->
 <p><span style="color: rgb(0, 0, 255);"><strong>Executive Director</strong></span>:&nbsp;<a href="mailto:karenfrancis@matthewhouse.ca">karenfrancis@matthewhouse.ca</a></p>
 <p><span style="color: rgb(0, 0, 255);"><strong>Founding Director</strong>:</span> <a href="mailto:anne@matthewhouse.ca">anne@matthewhouse.ca</a></p>
