@@ -220,8 +220,8 @@ $recent_posts = wp_get_recent_posts(array(
 							<!--
 							<script id="ch_cdn_embed" type="text/javascript" data-page-id="29049" data-cfasync="false" src="https://www.canadahelps.org/services/wa/js/apps/donatenow/embed.min.js"></script>
 							-->
-							<a target="_blank" href="https://www.canadahelps.org/dn/29049">
-								<img alt="" src="site/ywd_trialsite_1564/assets/images/MatthewHousePresents.jpg" style="height: 175px;" />
+							<a target="_blank" href="http://www.matthewhousepresents.com/">
+								<img alt="" src="site/ywd_trialsite_1564/assets/images/MatthewHousePresents.jpg" style="height: 215px;" />
 							</a>
 							<p>
 								Get your tickets <a href="http://www.matthewhousepresents.com/">here</a>.
