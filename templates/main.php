@@ -18,23 +18,6 @@ $recent_posts = wp_get_recent_posts(array(
 												<td>
 													<div id="cse" style="width:100%;display:none;"></div>
 													<div id="contentheaderhome">
-														<div id="contentheader">
-															<div class="maincolbox" style='clear:both;width:600px;' controller="1">
-																<div class="maincolcblock ywdblock_coords">
-																	<div class="wp" style='border-width:0px;border-style:solid;padding:20px;border:none;top:1100px;left:409px;position:absolute;' id='ywdautoformat2'>
-			<p>According to the United Nation&rsquo;s definition, a refugee is defined as &ldquo;a person outside his or her country of origin who has a well-founded fear of being persecuted for reasons of race, religion, nationality, membership in a particular social group or political opinion.&rdquo;</p>
-
-																		<h6><span style="color: rgb(51, 102, 153);">How We Help</span></h6>
-																		<p><span style="color: rgb(51, 102, 153);">Matthew House welcomes and assists newly arrived refugee claimants - those who ask for asylum upon arrival in Canada.  There is no system in place to assist them and hence they sometimes spend their first night in Canada literally on the street or at rough homeless shelters. Despite having reached a safe country, they are at risk of being victimized and retraumatized. Matthew House serves this group of very vulnerable refugee claimants.</span></p>
-<p><span style="color: rgb(51, 102, 153);">Since opening in 1998 we have assisted over 1,400 refugee claimants from 93 different nations.  We welcome all refugees regardless of their race, religion, sexual orientation or political opinion. We strive to make Matthew House a place where God’s love is felt and experienced and where refugee's dignity and hope are restored.</span></p>
-<p><span style="color: rgb(51, 102, 153);">At Matthew House, staff and volunteers foster a supportive community dedicated to meeting all their basic needs.  Our services include: safe shelter, expert settlement and orientation support, assistance with their refugee claim process and finding and furnishing apartments. Most importantly, we are a place of love and hope.  In addition to our main reception house, we have two transition homes where extra vulnerable residents such as unacompanied teens or single mothers may stay and receive longer term support.</span></p>
-<p><span style="color: rgb(51, 102, 153);">Matthew House does not receive any direct government funding but simply exists thanks to a supportive community of individuals, foundations and groups who care about the plight of refugees.</span></p>
-<p><span style="color: rgb(51, 102, 153);">In short, the Matthew House community serves as a "sponsor" by default for those who seek asylum in Canada and have no support system of their own. We exist thanks to Canadians who care about the plight of refugees.  We welcome your tanglible support in helping us serve the "forgotten refugees" arriving on our doorstep daily.  Thank you!</span></p>
-
-																	</div>
-																</div>
-															</div>
-														</div>
 														<div style="margin: 0px; padding: 0px; height: 0px; clear: both;"></div>
 														<table align="left" class="contenttable" border="0" cellspacing="0" cellpadding="0">
 															<tr>
@@ -177,7 +160,7 @@ $recent_posts = wp_get_recent_posts(array(
 		</div>
 		<div class="maincolbox" style='clear:both;' controller="1">
 			<div class="maincolcblock ywdblock_coords">
-				<div class="wp" style='top:240px;right:54px;position:absolute;' id='ywdautoformat0'><h1>15,000</h1>
+				<div class="wp" style='top:240px;right:54px;position:absolute;' id='ywdautoformat0'><h1>20,000+</h1>
 					<h2><span style="color: rgb(255, 255, 255);">REFUGEES SOUGHT ASYLUM<br />
 						IN CANADA LAST YEAR.</span></h2>
 						<h2><span style="color: rgb(255, 227, 51);">YOU CAN MAKE A DIFFERENCE.</span></h2>
