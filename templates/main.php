@@ -125,30 +125,12 @@ $recent_posts = wp_get_recent_posts(array(
 </div>	
 </div>
 </div>
-<div class="leftcolbox" style='clear:both;' controller="1">
-	<div class="leftcolcblock ywdblock_stacked">
-		<div class="wp" style='z-index:4;' id='ywdautoformat0'><h5><span style="color: rgb(0, 95, 140);">FACTS ON&nbsp;REFUGEES</span></h5>
-
-																		<h6 style="margin-top: 0"><span style="color: rgb(0, 153, 153);">Canada</span></h6>
-																		<p><span style="color: rgb(0, 153, 153);">Refugees come to Canada in three different ways. Traditionally about 7,000 refugees per year are sponsored by the government. This year the Syrian influx is a special exception and could result in an additional 25,000 or more arrivals. Another 3,000 per year are sponsored by private groups, such as churches.&nbsp;Historically the largest group, which recently numbered more than 15,000 per year, come to Canada as refugee claimants. This is the group whom Matthew House serves</span></p>
-																		<p><span style="color: rgb(0, 153, 153);">There is no system in place to welcome or assist refugee claimants. They are simply numbered among the homeless, often without resources. Many are forced to look for help in inappropriate city shelters not equipped to meet their needs. Government policies are becoming harsher and there is no structure in place to directly look after their well-being. Despite having reached a safe country, they are at risk of being victimized and traumatized again. Matthew House serves this group of vulnerable refugee claimants.</span></p>
-																		<p><span style="color: rgb(0, 153, 153);">Learn more at the&nbsp;</span><a href="http://ccrweb.ca/"><span style="color: rgb(0, 95, 140);">Canadian Council for Refugees</span></a>&nbsp;<span style="color: rgb(0, 153, 153);">website.</span></p>
-
-
-			<h6><span style="color: rgb(0, 153, 153);">World</span></h6>
-			<p><span style="color: rgb(0, 153, 153);">The United Nations High Commission for Refugees puts the current number of refugees and forcibly displaced people around the world at&nbsp;51.2 million. No one becomes a refugee by choice&mdash;they are forced to flee to save their lives or preserve their freedom. They begin a long journey of danger and uncertainty on the refugee highway, seeking safety and security.</span></p>
-			<p><span style="color: rgb(0, 153, 153);">Learn more about the following International Organizations:</span><br />
-				<a href="http://www.unhcr.org/"><span style="color: rgb(0, 102, 153);">United Nations High Commissioner for Refugees</span></a><br />
-				<a href="http://www.ohchr.org/EN/Pages/WelcomePage.aspx"><span style="color: rgb(0, 102, 153);">United Nations High Commissioner for Human Rights</span></a><br />
-				<a href="http://www.iom.int/jahia/Jahia/lang/en/pid/1"><span style="color: rgb(0, 102, 153);">International Organization for Migration</span></a></p>
-				</div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
-			</div>
-		</div>
-		<div class="leftcolbox" style='clear:both;' controller="1">
-			<div class="leftcolcblock ywdblock_stacked">
+	<div class="leftcolbox" style='clear:both;' controller="1">
+		<div class="leftcolcblock ywdblock_stacked">
 				<div class="wp"></div><div style="margin:0px;padding:0px;height:0px;clear:both;"></div>	
-			</div>
 		</div>
+		<br><br><br>
+	</div>
 	</div>
 </td>
 <td class="contentmaincol">
@@ -189,7 +171,7 @@ $recent_posts = wp_get_recent_posts(array(
 				</div>
 				<div class="maincolbox" style='clear:both;' controller="1">
 					<div class="maincolcblock ywdblock_coords">
-						<div class="wp" style='top:800px;left:459px;position:absolute;' id='ywdautoformat0'>
+						<div class="wp" style='top:780px;left:559px;position:absolute;' id='ywdautoformat0'>
 							<p>
 							<!--
 							<a target="_blank" href="https://www.canadahelps.org/en/charities/matthew-house-refugee-reception-services-toronto/events/matthew-house-presents/">
